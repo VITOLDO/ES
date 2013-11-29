@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/epm-farm/!svn/ver/22816/UA/Kyiv/TS/trunk/Broker/TradingSystemBroker_EJB/ejbModule/com/epam/tradingsystem/broker/entitiesbeans/broker
+END
+BrokerBeanLocal.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/epm-farm/!svn/ver/22816/UA/Kyiv/TS/trunk/Broker/TradingSystemBroker_EJB/ejbModule/com/epam/tradingsystem/broker/entitiesbeans/broker/BrokerBeanLocal.java
+END
+BrokerBeanRemote.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/epm-farm/!svn/ver/22816/UA/Kyiv/TS/trunk/Broker/TradingSystemBroker_EJB/ejbModule/com/epam/tradingsystem/broker/entitiesbeans/broker/BrokerBeanRemote.java
+END
+BrokerBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/epm-farm/!svn/ver/22816/UA/Kyiv/TS/trunk/Broker/TradingSystemBroker_EJB/ejbModule/com/epam/tradingsystem/broker/entitiesbeans/broker/BrokerBean.java
+END

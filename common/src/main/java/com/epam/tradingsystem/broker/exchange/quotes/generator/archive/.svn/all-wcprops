@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/epm-farm/!svn/ver/22293/UA/Kyiv/TS/trunk/Broker/TradingSystemBroker_EJB/ejbModule/com/epam/tradingsystem/broker/exchange/quotes/generator/archive
+END
+CandleApi.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/epm-farm/!svn/ver/22293/UA/Kyiv/TS/trunk/Broker/TradingSystemBroker_EJB/ejbModule/com/epam/tradingsystem/broker/exchange/quotes/generator/archive/CandleApi.java
+END
+DistributionConverterApi.java
+K 25
+svn:wc:ra_dav:version-url
+V 176
+/epm-farm/!svn/ver/22293/UA/Kyiv/TS/trunk/Broker/TradingSystemBroker_EJB/ejbModule/com/epam/tradingsystem/broker/exchange/quotes/generator/archive/DistributionConverterApi.java
+END
+TickGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/epm-farm/!svn/ver/22293/UA/Kyiv/TS/trunk/Broker/TradingSystemBroker_EJB/ejbModule/com/epam/tradingsystem/broker/exchange/quotes/generator/archive/TickGenerator.java
+END
+BearingPoints.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/epm-farm/!svn/ver/22293/UA/Kyiv/TS/trunk/Broker/TradingSystemBroker_EJB/ejbModule/com/epam/tradingsystem/broker/exchange/quotes/generator/archive/BearingPoints.java
+END
+TickApi.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/epm-farm/!svn/ver/22293/UA/Kyiv/TS/trunk/Broker/TradingSystemBroker_EJB/ejbModule/com/epam/tradingsystem/broker/exchange/quotes/generator/archive/TickApi.java
+END
+Candle.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/epm-farm/!svn/ver/22293/UA/Kyiv/TS/trunk/Broker/TradingSystemBroker_EJB/ejbModule/com/epam/tradingsystem/broker/exchange/quotes/generator/archive/Candle.java
+END
+CandleGeneratorApi.java
+K 25
+svn:wc:ra_dav:version-url
+V 170
+/epm-farm/!svn/ver/22293/UA/Kyiv/TS/trunk/Broker/TradingSystemBroker_EJB/ejbModule/com/epam/tradingsystem/broker/exchange/quotes/generator/archive/CandleGeneratorApi.java
+END
+DistributionConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 173
+/epm-farm/!svn/ver/22293/UA/Kyiv/TS/trunk/Broker/TradingSystemBroker_EJB/ejbModule/com/epam/tradingsystem/broker/exchange/quotes/generator/archive/DistributionConverter.java
+END
+Tick.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/epm-farm/!svn/ver/22293/UA/Kyiv/TS/trunk/Broker/TradingSystemBroker_EJB/ejbModule/com/epam/tradingsystem/broker/exchange/quotes/generator/archive/Tick.java
+END
+TickGeneratorApi.java
+K 25
+svn:wc:ra_dav:version-url
+V 168
+/epm-farm/!svn/ver/22293/UA/Kyiv/TS/trunk/Broker/TradingSystemBroker_EJB/ejbModule/com/epam/tradingsystem/broker/exchange/quotes/generator/archive/TickGeneratorApi.java
+END
+CandleGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/epm-farm/!svn/ver/22293/UA/Kyiv/TS/trunk/Broker/TradingSystemBroker_EJB/ejbModule/com/epam/tradingsystem/broker/exchange/quotes/generator/archive/CandleGenerator.java
+END

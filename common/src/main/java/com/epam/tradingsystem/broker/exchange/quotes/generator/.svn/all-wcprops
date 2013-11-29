@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/epm-farm/!svn/ver/22325/UA/Kyiv/TS/trunk/Broker/TradingSystemBroker_EJB/ejbModule/com/epam/tradingsystem/broker/exchange/quotes/generator
+END
+Generator.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/epm-farm/!svn/ver/22325/UA/Kyiv/TS/trunk/Broker/TradingSystemBroker_EJB/ejbModule/com/epam/tradingsystem/broker/exchange/quotes/generator/Generator.java
+END
+DistributionConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/epm-farm/!svn/ver/22294/UA/Kyiv/TS/trunk/Broker/TradingSystemBroker_EJB/ejbModule/com/epam/tradingsystem/broker/exchange/quotes/generator/DistributionConverter.java
+END
+Tick.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/epm-farm/!svn/ver/22294/UA/Kyiv/TS/trunk/Broker/TradingSystemBroker_EJB/ejbModule/com/epam/tradingsystem/broker/exchange/quotes/generator/Tick.java
+END
+GeneratorDemo.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/epm-farm/!svn/ver/22294/UA/Kyiv/TS/trunk/Broker/TradingSystemBroker_EJB/ejbModule/com/epam/tradingsystem/broker/exchange/quotes/generator/GeneratorDemo.java
+END

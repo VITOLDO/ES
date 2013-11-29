@@ -3,10 +3,16 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>ES</groupId>
     <artifactId>ES</artifactId>
-    <packaging>war</packaging>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
-    <name>ES Maven Webapp</name>
-    <url>http://maven.apache.org</url>
+    <modules>
+        <module>common</module>
+    </modules>
+    <name>ES</name>
+
+    <modules>
+        <module>common</module>
+    </modules>
 
     <dependencies>
         <dependency>

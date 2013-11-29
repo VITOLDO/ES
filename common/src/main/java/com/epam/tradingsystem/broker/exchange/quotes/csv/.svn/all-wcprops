@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/epm-farm/!svn/ver/22256/UA/Kyiv/TS/trunk/Broker/TradingSystemBroker_EJB/ejbModule/com/epam/tradingsystem/broker/exchange/quotes/csv
+END
+SeparatorType.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/epm-farm/!svn/ver/22256/UA/Kyiv/TS/trunk/Broker/TradingSystemBroker_EJB/ejbModule/com/epam/tradingsystem/broker/exchange/quotes/csv/SeparatorType.java
+END
+CSVParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/epm-farm/!svn/ver/22256/UA/Kyiv/TS/trunk/Broker/TradingSystemBroker_EJB/ejbModule/com/epam/tradingsystem/broker/exchange/quotes/csv/CSVParser.java
+END
+CSVParserTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/epm-farm/!svn/ver/22256/UA/Kyiv/TS/trunk/Broker/TradingSystemBroker_EJB/ejbModule/com/epam/tradingsystem/broker/exchange/quotes/csv/CSVParserTest.java
+END
+CSVSeparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/epm-farm/!svn/ver/22256/UA/Kyiv/TS/trunk/Broker/TradingSystemBroker_EJB/ejbModule/com/epam/tradingsystem/broker/exchange/quotes/csv/CSVSeparator.java
+END
