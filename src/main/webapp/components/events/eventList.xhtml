@@ -1,0 +1,98 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.prime.com.tr/ui">
+
+<link type="text/css" href="resources/css/trader/calendar.css" rel="Stylesheet" />
+<script type="text/javascript" src="resources/js/trader/jquery.min.js" />
+<script type="text/javascript" src="resources/js/trader/ui.datepicker.js" />
+
+<script type="text/javascript">
+function checkAllTypes(allCheckbox) {
+	var allElem=document.getElementById('eventForm').elements;
+	i = 0;
+	while (i != allElem.length) {
+		i++;
+		if (allElem[i].type == 'checkbox') {
+			allElem[i].checked = allCheckbox.checked;
+		}
+	}
+}
+function checkType(checkbox) {
+	if (!checkbox.checked) {
+		document.getElementById('eventForm:checkbox').checked = false;
+	}
+}
+</script>
+	
+	<h:form id="eventForm">	
+		<table>
+		<tr>
+			<td colspan="2">
+				<h:inputText  id="dateFrom" value="#{eventBean.filterDateFrom}"  class="datepickerTimeField">
+					<f:convertDateTime pattern="dd.MM.yyyy" timeZone="EST" type="date" />
+				</h:inputText>				
+				<h:outputLabel value="to"/>
+				<h:inputText id="dateTo" value="#{eventBean.filterDateTo}" class="datepickerTimeField">
+					<f:convertDateTime pattern="dd.MM.yyyy" timeZone="EST" type="date" />
+				</h:inputText>
+				<script type="text/javascript">
+				$(".datepickerTimeField").datepicker({
+					changeMonth: true,
+					changeYear: true,
+					dateFormat: 'dd.mm.yy',
+					firstDay: 1, changeFirstDay: false,
+					navigationAsDateFormat: false,
+					duration: 0// отключаем эффект появления
+				});
+				</script>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<h:selectBooleanCheckbox id="checkbox" value="true" title="click it to select all types" onchange="checkAllTypes(this)"/>
+				<h:outputText value="Select all"/>
+			</td>
+		</tr>
+		<tr>
+			<td>			
+				<h:dataTable value="#{eventBean.FILTERS}" var="item"> 
+					<h:column> 
+						<h:selectBooleanCheckbox value="#{eventBean.filterTypes[item]}"  onchange="checkType(this)"/>#{item}
+			    	</h:column>
+			    </h:dataTable>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" align="center">				
+				<h:commandButton value="Submit" action="#{eventBean.applyFilters}" /> 
+			</td>
+		</tr>
+		</table>
+	</h:form>
+			
+	<h:dataTable value="#{eventBean.eventData}" var="item" columnClasses="noun,noun,noun"> 
+		<h:column>
+			<f:facet name="header">Date</f:facet> 
+			<h:outputText value="#{item.date}" >
+				<f:convertDateTime pattern="dd.MM.yyyy" timeZone="EST" type="date" />
+			</h:outputText>>
+		</h:column>
+		<h:column>
+			<f:facet name="header">Activity</f:facet> 
+			<h:outputText value="#{item.eventType.description}" />
+		</h:column>
+		<h:column>		
+			<f:facet name="header">Message</f:facet>
+			<h:outputText value="#{item.message}" />
+		</h:column>
+	</h:dataTable>
+
+	<h:form>
+		<h:outputText value="        page: #{eventBean.currentPage} of #{eventBean.totalPages}      " />
+		<h:commandButton value="previous"  action="#{eventBean.previousPageAction}" />
+		<h:commandButton value="next"  action="#{eventBean.nextPageAction}" />
+	</h:form>
+
+</ui:composition>

@@ -1,0 +1,25 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core">
+		<h:dataTable value="#{rates.ratesView}" var="item" headerClass="noun" columnClasses="noun,noun,noun"> 
+            <h:column> 
+                <f:facet name="header">Currency pair</f:facet> 
+                #{item.code}
+            </h:column>
+            <h:column> 
+                <f:facet name="header">Bid</f:facet> 
+                <h:outputText value="#{item.bid}">
+                	<f:converter converterId="DecimalConverter" />
+                	<f:attribute name="sizeDecimal" value="4" />
+                </h:outputText>
+            </h:column>
+            <h:column> 
+                <f:facet name="header">Ask</f:facet>
+                <h:outputText value="#{item.ask}">
+                	<f:converter converterId="DecimalConverter" />
+                	<f:attribute name="sizeDecimal" value="4" />
+                </h:outputText>
+            </h:column>
+        </h:dataTable>
+</ui:composition>

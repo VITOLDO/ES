@@ -1,0 +1,25 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+
+		
+	<div align="center">
+		<h:outputText value="Please, login"></h:outputText>
+		<form method="post" action="j_security_check">
+			<TABLE>
+			<tr>
+				<td>login: </td>
+				<td><input type="text" name="j_username"></input></td>
+			</tr>
+			<tr>
+				<td>password: </td>
+				<td><input type="password" name= "j_password"></input></td>
+			</tr>
+			</TABLE>
+			
+  			<input type="submit" value="Submit" ></input>
+  			
+		</form>
+		<a href="/TradingSystemBroker_WEB/faces/registration.xhtml"> Registration</a>
+	</div>
+</ui:composition>

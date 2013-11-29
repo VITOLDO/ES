@@ -1,0 +1,81 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ajax="http://www.exadel.com/vcp/components/ajax">
+
+	<h:form>
+		<table>
+			<tr>
+				<td>Cross:</td>
+
+				<td><h:selectOneMenu value="#{TradingOrderBean.tickerId}">
+						<f:selectItems value="#{TradingOrderBean.tickerValues}" />
+					
+					</h:selectOneMenu>
+				</td>
+			</tr>
+			<tr>
+				<td>Oz:</td>
+				<td><h:selectOneMenu value="#{TradingOrderBean.oz}">
+
+						<f:selectItems value="#{TradingOrderBean.ozValues}" />
+
+					</h:selectOneMenu>
+				</td>
+			</tr>
+			<tr>
+				<td>S/L:</td>
+				<td><h:selectOneMenu value="sl">
+						<f:selectItem itemValue="empty" itemLabel="empty" />
+					</h:selectOneMenu>
+				</td>
+			</tr>
+			<tr>
+				<td>T/P:</td>
+				<td><h:selectOneMenu value="tp">
+						<f:selectItem itemValue="empty" itemLabel="empty" />
+					</h:selectOneMenu>
+				</td>
+			</tr>
+			<tr>
+				<td>Type Order:</td>
+				<td><h:selectOneMenu value="#{TradingOrderBean.typeOrder}">
+						<f:selectItems value="#{TradingOrderBean.typeOrderValues}"/>
+					</h:selectOneMenu>
+				</td>
+			</tr>
+          	<tr>
+				<td>Type Operation:</td>
+				<td><h:selectOneMenu id="selectTypeOperation" value="#{TradingOrderBean.typeOperation}">
+						<f:selectItems value="#{TradingOrderBean.typeOperationValues}"/>
+					</h:selectOneMenu>
+					
+				</td>
+								
+			</tr>
+			
+					<tr>
+				<td>Your Price:</td>
+				<td>
+		                
+				<h:inputText value="#{TradingOrderBean.price}">
+				<f:converter converterId="DecimalConverter" />
+                	<f:attribute name="sizeDecimal" value="4" />
+				</h:inputText>
+			
+					</td>
+
+			</tr>
+			<tr>
+				<td><h:commandButton value="Submit"
+						action="#{TradingOrderBean.buyOrder}" />
+				</td>
+
+			</tr>
+		</table>
+
+	</h:form>
+
+
+</ui:composition>

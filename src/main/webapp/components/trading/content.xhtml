@@ -1,0 +1,36 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+
+	<div id="tradingOrder">
+		<ui:insert name="tradingOrder">
+			<ui:include src="/components/trading/content/orders/tradingOrder.xhtml" />
+		</ui:insert>
+	</div>
+	<div id="chart">
+		<ui:insert name="chart">
+			<ui:include src="/components/trading/content/charts/chart.xhtml" />
+		</ui:insert>
+	</div>
+	<div id="tableRates">
+		<ui:insert name="tableRates">
+			<ui:include src="/components/trading/content/quotes/tableRates.xhtml" />
+		</ui:insert>
+	</div>
+	<div id="news">
+		<ui:insert name="news">
+			<ui:include src="/components/trading/content/news/mainNews.xhtml" />
+		</ui:insert>
+	</div>
+	<div id="fastOrder">
+		<ui:insert name="fastOrder">
+			<ui:include src="/components/trading/content/orders/fastOrder.xhtml" />
+		</ui:insert>
+	</div>
+	<div id="activeOrders">
+		<ui:insert name="activeOrders">
+			<ui:include src="/components/trading/content/orders/activeOrders.xhtml" />
+		</ui:insert>
+	</div>
+
+</ui:composition>
