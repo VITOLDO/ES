@@ -1,5 +1,7 @@
 package com.epam.tradingsystem.broker.entities;
 
+import org.apache.commons.lang3.builder.EqualsBuilder;
+
 import javax.persistence.*;
 import java.io.Serializable;
 

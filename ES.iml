@@ -4,8 +4,8 @@
     <facet type="web" name="Web">
       <configuration>
         <descriptors>
-          <deploymentDescriptor name="sun-web.xml" url="file://$MODULE_DIR$/src/main/webapp/WEB-INF/sun-web.xml" />
-          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/src/main/webapp/WEB-INF/web.xml" />
+          <deploymentDescriptor name="sun-web.xml" url="file://$MODULE_DIR$/web-app/src/main/webapp/WEB-INF/sun-web.xml" />
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/web-app/src/main/webapp/WEB-INF/web.xml" />
         </descriptors>
         <webroots>
           <root url="file://$MODULE_DIR$/src/main/webapp" relative="/" />
@@ -35,6 +35,25 @@
     <orderEntry type="library" name="Maven: org.jsoup:jsoup:1.6.3" level="project" />
     <orderEntry type="library" name="Maven: com.vaadin:vaadin-themes:7.1.7" level="project" />
     <orderEntry type="library" name="Maven: com.vaadin:vaadin-client-compiled:7.1.7" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring:2.5.6" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-webmvc:2.5.6" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-beans:2.5.6" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-core:2.5.6" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-context:2.5.6" level="project" />
+    <orderEntry type="library" name="Maven: aopalliance:aopalliance:1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-context-support:2.5.6" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-web:2.5.6" level="project" />
+    <orderEntry type="library" name="Maven: cglib:cglib:2.2" level="project" />
+    <orderEntry type="library" name="Maven: asm:asm:3.1" level="project" />
+    <orderEntry type="library" name="Maven: org.hibernate:hibernate-core:4.2.7.Final" level="project" />
+    <orderEntry type="library" name="Maven: antlr:antlr:2.7.7" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.logging:jboss-logging:3.1.0.GA" level="project" />
+    <orderEntry type="library" name="Maven: dom4j:dom4j:1.6.1" level="project" />
+    <orderEntry type="library" name="Maven: org.javassist:javassist:3.18.1-GA" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.spec.javax.transaction:jboss-transaction-api_1.1_spec:1.0.1.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.hibernate.javax.persistence:hibernate-jpa-2.0-api:1.0.1.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.hibernate.common:hibernate-commons-annotations:4.0.2.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.hsqldb:hsqldb:2.2.9" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-log4j12:1.6.4" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.6.4" level="project" />
     <orderEntry type="library" name="Maven: log4j:log4j:1.2.16" level="project" />

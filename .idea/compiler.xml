@@ -29,6 +29,9 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="common" />
+        <module name="dataaccess" />
+        <module name="service" />
+        <module name="web-app" />
       </profile>
     </annotationProcessing>
   </component>
