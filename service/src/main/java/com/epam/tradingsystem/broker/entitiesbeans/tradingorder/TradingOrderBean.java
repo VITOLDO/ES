@@ -15,7 +15,6 @@ import com.epam.tradingsystem.broker.entities.Account;
 import com.epam.tradingsystem.broker.entities.Trader;
 import com.epam.tradingsystem.broker.entities.TradingOrder;
 import com.epam.tradingsystem.broker.entitiesbeans.GenericBeanImpl;
-import com.epam.tradingsystem.broker.entitiesbeans.account.AccountBeanLocal;
 import com.epam.tradingsystem.broker.entitiesbeans.orderoperation.OrderOperationLocal;
 import com.epam.tradingsystem.broker.entitiesbeans.ticker.TickerBeanLocal;
 

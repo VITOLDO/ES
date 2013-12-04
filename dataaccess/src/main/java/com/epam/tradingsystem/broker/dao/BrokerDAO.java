@@ -1,16 +1,14 @@
 package com.epam.tradingsystem.broker.dao;
 
 import com.epam.tradingsystem.broker.dao.BaseDAO;
-import com.epam.tradingsystem.broker.entities.Account;
-
-import java.util.List;
+import com.epam.tradingsystem.broker.entities.Broker;
 
 /**
  * Created with IntelliJ IDEA.
  * User: Viktor
- * Date: 04.12.13
- * Time: 23:25
+ * Date: 05.12.13
+ * Time: 0:05
  * To change this template use File | Settings | File Templates.
  */
-public interface AccountDAO extends BaseDAO<Account> {
+public interface BrokerDAO extends BaseDAO<Broker> {
 }

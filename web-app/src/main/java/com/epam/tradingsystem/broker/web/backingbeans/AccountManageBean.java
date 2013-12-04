@@ -5,7 +5,6 @@ import java.util.List;
 import javax.ejb.EJB;
 import com.epam.tradingsystem.broker.entities.Account;
 import com.epam.tradingsystem.broker.entities.Trader;
-import com.epam.tradingsystem.broker.entitiesbeans.account.AccountBeanLocal;
 
 public class AccountManageBean {
 	@EJB

@@ -7,8 +7,6 @@ import javax.ejb.EJB;
 import javax.ejb.Stateless;
 import javax.ejb.TransactionManagement;
 import javax.ejb.TransactionManagementType;
-import javax.persistence.EntityManager;
-import javax.persistence.NamedQuery;
 import javax.persistence.NoResultException;
 import javax.persistence.Query;
 
@@ -19,7 +17,6 @@ import com.epam.tradingsystem.broker.entities.Currency;
 import com.epam.tradingsystem.broker.entities.Trader;
 import com.epam.tradingsystem.broker.entities.Usergroup;
 import com.epam.tradingsystem.broker.entitiesbeans.GenericBeanImpl;
-import com.epam.tradingsystem.broker.entitiesbeans.account.AccountBeanRemote;
 import com.epam.tradingsystem.broker.entitiesbeans.accounttype.AccountTypeBeanRemote;
 import com.epam.tradingsystem.broker.entitiesbeans.currency.CurrenceBeanRemote;
 import com.epam.tradingsystem.broker.entitiesbeans.usergroup.UserGroupBeanRemote;
