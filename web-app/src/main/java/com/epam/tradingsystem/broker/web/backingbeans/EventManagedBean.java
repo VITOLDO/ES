@@ -1,24 +1,18 @@
 package com.epam.tradingsystem.broker.web.backingbeans;
 
-import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
-import javax.ejb.EJB;
-import javax.faces.context.FacesContext;
-import javax.servlet.http.HttpSession;
-
 import com.epam.tradingsystem.broker.entities.Event;
 import com.epam.tradingsystem.broker.entities.Trader;
-import com.epam.tradingsystem.broker.entitiesbeans.event.EventBeanLocal;
+import com.epam.tradingsystem.broker.entitiesbeans.event.EventService;
 import com.epam.tradingsystem.broker.events.commands.LoggerCommand;
+import org.springframework.beans.factory.annotation.Autowired;
+
+import javax.faces.context.FacesContext;
+import javax.servlet.http.HttpSession;
+import java.util.*;
 
 public class EventManagedBean {
-	@EJB
-	private EventBeanLocal e;
+	@Autowired
+	private EventService eventService;
 	
 	/**
 	 * List of filter names
@@ -105,11 +99,11 @@ public class EventManagedBean {
 		}
 		
 		// Get count of events for paging 
-		countEvents = e.getCount(filterDateFrom, filterDateTo, eventTypesForSearch, getCurrentTrader());
+//		countEvents = eventService.getCount(filterDateFrom, filterDateTo, eventTypesForSearch, getCurrentTrader());
 		totalPages = countEvents / EVENTS_PER_PAGE;
 		
 		// Get all events that satisfy filters
-		eventData = e.search(filterDateFrom, filterDateTo, eventTypesForSearch, getCurrentTrader(), currentPage, EVENTS_PER_PAGE);
+//		eventData = eventService.search(filterDateFrom, filterDateTo, eventTypesForSearch, getCurrentTrader(), currentPage, EVENTS_PER_PAGE);
 		
 		return null;
 	}

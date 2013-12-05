@@ -2,6 +2,9 @@ package com.epam.tradingsystem.broker.dao.impl;
 
 import com.epam.tradingsystem.broker.dao.EventDAO;
 import com.epam.tradingsystem.broker.entities.Event;
+import com.epam.tradingsystem.broker.entities.Trader;
+
+import java.util.List;
 
 /**
  * Created with IntelliJ IDEA.
@@ -13,5 +16,10 @@ import com.epam.tradingsystem.broker.entities.Event;
 public class EventDAOImpl extends BaseDAOImpl<Event> implements EventDAO {
     public EventDAOImpl() {
         setClazz(Event.class);
+    }
+
+    @Override
+    public List<Event> findEventsByTrader(Trader trader) {
+        return getHibernateTemplate().find("from Event e where e.trader = trader");
     }
 }

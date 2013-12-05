@@ -29,4 +29,9 @@ public class AccountServiceImpl implements AccountService {
     public List<Account> getAllAccounts() {
         return accountDAO.findAll();
     }
+
+    @Override
+    public void updateAccount(Account account) {
+        accountDAO.update(account);
+    }
 }

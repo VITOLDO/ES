@@ -1,61 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74a3bd98-115e-454f-9dcc-4e6544a8a357" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/impl/AccountDAOImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/account/AccountService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/account/AccountServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/AccountTypeDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/impl/AccountTypeDAOImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/BaseDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/impl/BaseDAOImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/BrokerDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/impl/BrokerDAOImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/CountryDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/impl/CountryDAOImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/CurrencyDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/impl/CurrencyDAOImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/EventDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/impl/EventDAOImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/EventTypeDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/impl/EventTypeDAOImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/FeedMessageDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/impl/FeedMessageDAOImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/OrderOperationDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/impl/OrderOperationDAOImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/RateDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/impl/RateDAOImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/TickerDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/impl/TickerDAOImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/TraderDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/impl/TraderDAOImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/TradingOrderDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/impl/TradingOrderDAOImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/UsergroupDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/impl/UsergroupDAOImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataaccess/src/main/resources/log4j.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataaccess/src/main/resources/persistance.xml" />
-      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\service\src\main\java\com\epam\tradingsystem\broker\entitiesbeans\account\AccountBean.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\service\src\main\java\com\epam\tradingsystem\broker\entitiesbeans\account\AccountBeanLocal.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\service\src\main\java\com\epam\tradingsystem\broker\entitiesbeans\account\AccountBeanRemote.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/AccountDAO.java" afterPath="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/AccountDAO.java" />
+    <list default="true" id="74a3bd98-115e-454f-9dcc-4e6544a8a357" name="Default" comment="adding DAO,&#10;adding few dependancies">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/accounttype/AccountTypeService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/accounttype/AccountTypeServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/broker/BrokerService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/broker/BrokerServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/country/CountryServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/currency/CurrencyServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/event/EventService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/eventtype/EventTypeServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/orderoperation/OrderOperationServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/rate/RateServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/ticker/TickerService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/ticker/TickerServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/trader/TraderService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/tradingorder/TradingOrderService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/usergroup/UserGroupService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/usergroup/UserGroupServiceImpl.java" />
+      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\service\src\main\java\com\epam\tradingsystem\broker\entitiesbeans\GenericBean.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\service\src\main\java\com\epam\tradingsystem\broker\entitiesbeans\GenericBeanImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\service\src\main\java\com\epam\tradingsystem\broker\entitiesbeans\accounttype\AccountTypeBean.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\service\src\main\java\com\epam\tradingsystem\broker\entitiesbeans\accounttype\AccountTypeBeanLocal.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\service\src\main\java\com\epam\tradingsystem\broker\entitiesbeans\accounttype\AccountTypeBeanRemote.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\service\src\main\java\com\epam\tradingsystem\broker\entitiesbeans\broker\BrokerBean.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\service\src\main\java\com\epam\tradingsystem\broker\entitiesbeans\broker\BrokerBeanLocal.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\service\src\main\java\com\epam\tradingsystem\broker\entitiesbeans\broker\BrokerBeanRemote.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\service\src\main\java\com\epam\tradingsystem\broker\entitiesbeans\country\CountryBeanLocal.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\service\src\main\java\com\epam\tradingsystem\broker\entitiesbeans\country\CountryBeanRemote.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\service\src\main\java\com\epam\tradingsystem\broker\entitiesbeans\currency\CurrenceBeanLocal.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\service\src\main\java\com\epam\tradingsystem\broker\entitiesbeans\currency\CurrenceBeanRemote.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\service\src\main\java\com\epam\tradingsystem\broker\entitiesbeans\event\EventBeanLocal.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\service\src\main\java\com\epam\tradingsystem\broker\entitiesbeans\event\EventBeanRemote.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\service\src\main\java\com\epam\tradingsystem\broker\entitiesbeans\eventtype\EventTypeBeanLocal.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\service\src\main\java\com\epam\tradingsystem\broker\entitiesbeans\eventtype\EventTypeBeanRemote.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\service\src\main\java\com\epam\tradingsystem\broker\entitiesbeans\feed\FeedBeanLocal.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\service\src\main\java\com\epam\tradingsystem\broker\entitiesbeans\feed\FeedBeanRemote.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\service\src\main\java\com\epam\tradingsystem\broker\entitiesbeans\orderoperation\OrderOperationLocal.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\service\src\main\java\com\epam\tradingsystem\broker\entitiesbeans\orderoperation\OrderOperationRemote.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\service\src\main\java\com\epam\tradingsystem\broker\entitiesbeans\rate\RateBeanLocal.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\service\src\main\java\com\epam\tradingsystem\broker\entitiesbeans\rate\RateBeanRemote.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\service\src\main\java\com\epam\tradingsystem\broker\entitiesbeans\ticker\TickerBean.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\service\src\main\java\com\epam\tradingsystem\broker\entitiesbeans\ticker\TickerBeanLocal.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\service\src\main\java\com\epam\tradingsystem\broker\entitiesbeans\ticker\TickerBeanRemote.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\service\src\main\java\com\epam\tradingsystem\broker\entitiesbeans\trader\TraderBeanLocal.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\service\src\main\java\com\epam\tradingsystem\broker\entitiesbeans\trader\TraderBeanRemote.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\service\src\main\java\com\epam\tradingsystem\broker\entitiesbeans\tradingorder\TradingOrderBeanLocal.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\service\src\main\java\com\epam\tradingsystem\broker\entitiesbeans\tradingorder\TradingOrderBeanRemote.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\service\src\main\java\com\epam\tradingsystem\broker\entitiesbeans\usergroup\UserGroupBean.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\service\src\main\java\com\epam\tradingsystem\broker\entitiesbeans\usergroup\UserGroupBeanLocal.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\service\src\main\java\com\epam\tradingsystem\broker\entitiesbeans\usergroup\UserGroupBeanRemote.java" afterPath="" />
+      <change type="MOVED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\service\src\main\java\com\epam\tradingsystem\broker\entitiesbeans\country\CountryBean.java" afterPath="$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/country/CountryService.java" />
+      <change type="MOVED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\service\src\main\java\com\epam\tradingsystem\broker\entitiesbeans\currency\CurrenceBean.java" afterPath="$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/currency/CurrencyService.java" />
+      <change type="MOVED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\service\src\main\java\com\epam\tradingsystem\broker\entitiesbeans\event\EventBean.java" afterPath="$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/event/EventServiceImpl.java" />
+      <change type="MOVED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\service\src\main\java\com\epam\tradingsystem\broker\entitiesbeans\eventtype\EventTypeBean.java" afterPath="$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/eventtype/EventTypeService.java" />
+      <change type="MOVED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\service\src\main\java\com\epam\tradingsystem\broker\entitiesbeans\feed\FeedBean.java" afterPath="$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/feed/FeedServiceImpl.java" />
+      <change type="MOVED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\service\src\main\java\com\epam\tradingsystem\broker\entitiesbeans\orderoperation\OrderOperationBean.java" afterPath="$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/orderoperation/OrderOperationService.java" />
+      <change type="MOVED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\service\src\main\java\com\epam\tradingsystem\broker\entitiesbeans\rate\RateBean.java" afterPath="$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/rate/RateService.java" />
+      <change type="MOVED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\service\src\main\java\com\epam\tradingsystem\broker\entitiesbeans\trader\TraderBean.java" afterPath="$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/trader/TraderServiceImpl.java" />
+      <change type="MOVED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\service\src\main\java\com\epam\tradingsystem\broker\entitiesbeans\tradingorder\TradingOrderBean.java" afterPath="$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/tradingorder/TradingOrderServiceImpl.java" />
+      <change type="MOVED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\service\src\main\java\com\epam\tradingsystem\broker\service\AccountService.java" afterPath="$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/feed/FeedService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/backingbeans/AccountManageBean.java" afterPath="$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/backingbeans/AccountManageBean.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/trader/TraderBean.java" afterPath="$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/trader/TraderBean.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/tradingorder/TradingOrderBean.java" afterPath="$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/tradingorder/TradingOrderBean.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/src/main/webapp/config/applicationContext.xml" afterPath="$PROJECT_DIR$/web-app/src/main/webapp/config/applicationContext.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataaccess/pom.xml" afterPath="$PROJECT_DIR$/dataaccess/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/pom.xml" afterPath="$PROJECT_DIR$/service/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/account/AccountService.java" afterPath="$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/account/AccountService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/account/AccountServiceImpl.java" afterPath="$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/account/AccountServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/backingbeans/ChangePassBean.java" afterPath="$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/backingbeans/ChangePassBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/EventDAO.java" afterPath="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/EventDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/impl/EventDAOImpl.java" afterPath="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/impl/EventDAOImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/backingbeans/EventManagedBean.java" afterPath="$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/backingbeans/EventManagedBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/events/commands/LoggerCommand.java" afterPath="$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/events/commands/LoggerCommand.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/backingbeans/OrdersHistoryBean.java" afterPath="$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/backingbeans/OrdersHistoryBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/rate/ejb/RateEJB.java" afterPath="$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/rate/ejb/RateEJB.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/rate/ejb/RateEJBLocal.java" afterPath="$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/rate/ejb/RateEJBLocal.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/rate/mdb/RateMessageBean.java" afterPath="$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/rate/mdb/RateMessageBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/backingbeans/RatesManagedBean.java" afterPath="$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/backingbeans/RatesManagedBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/backingbeans/RegistrationBean.java" afterPath="$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/backingbeans/RegistrationBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/backingbeans/TradingOrderBean.java" afterPath="$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/backingbeans/TradingOrderBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/filters/UserFilter.java" afterPath="$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/filters/UserFilter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/pom.xml" afterPath="$PROJECT_DIR$/web-app/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/web-app.iml" afterPath="$PROJECT_DIR$/web-app/web-app.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web-app/src/main/webapp/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ES.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/MainUI.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1383163518979" ignored="false" />
     <file path="/pom.xml" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386194436594" ignored="false" />
-    <file path="/Dummy.txt" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386191177626" ignored="false" />
+    <file path="/Dummy.txt" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386272059692" ignored="false" />
     <file path="/web.xml" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1385894434708" ignored="false" />
     <file path="/Account.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1385754873405" ignored="false" />
-    <file path="/fragment.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386195669647" ignored="false" />
+    <file path="/fragment.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386273644895" ignored="false" />
     <file path="/hibernate.cfg.xml" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386194020897" ignored="false" />
     <file path="/application-config.xml" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1385893432171" ignored="false" />
     <file path="/applicationContext.xml" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386194236543" ignored="false" />
@@ -64,18 +98,18 @@
     <file path="/AccountDAOImpl.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386195035486" ignored="false" />
     <file path="/BaseDAO.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386192840752" ignored="false" />
     <file path="/BaseDAOImpl.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386193392707" ignored="false" />
-    <file path="/AccountService.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386194504933" ignored="false" />
-    <file path="/AccountServiceImpl.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386194556037" ignored="false" />
+    <file path="/AccountService.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386275398445" ignored="false" />
+    <file path="/AccountServiceImpl.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386275411978" ignored="false" />
     <file path="/AccountTypeImpl.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386195050031" ignored="false" />
     <file path="/AccountTypeDAO.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386194676190" ignored="false" />
-    <file path="/BrokerDAO.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386194730571" ignored="false" />
-    <file path="/BrokerDAOImpl.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386195060755" ignored="false" />
+    <file path="/BrokerDAO.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386272310816" ignored="false" />
+    <file path="/BrokerDAOImpl.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386272371992" ignored="false" />
     <file path="/CountryDAO.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386194798988" ignored="false" />
     <file path="/CountryDAOImpl.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386195076498" ignored="false" />
     <file path="/CurrencyDAO.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386194962387" ignored="false" />
     <file path="/CurrencyDAOImpl.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386195091526" ignored="false" />
-    <file path="/EventDAO.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386195117992" ignored="false" />
-    <file path="/EventDAOImpl.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386195153811" ignored="false" />
+    <file path="/EventDAO.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386274013368" ignored="false" />
+    <file path="/EventDAOImpl.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386274114590" ignored="false" />
     <file path="/EventTypeDAO.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386195179815" ignored="false" />
     <file path="/EventTypeDAOImpl.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386195219975" ignored="false" />
     <file path="/FeedMessageDAO.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386195245243" ignored="false" />
@@ -92,6 +126,35 @@
     <file path="/TradingOrderDAOImpl.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386195612926" ignored="false" />
     <file path="/UsergroupDAO.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386195660466" ignored="false" />
     <file path="/UsergroupDAOImpl.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386195692221" ignored="false" />
+    <file path="/AccountTypeBean.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386272176817" ignored="false" />
+    <file path="/AccountTypeServiceImpl.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386272234468" ignored="false" />
+    <file path="/CountryService.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386272489391" ignored="false" />
+    <file path="/CountryServiceImpl.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386272551337" ignored="false" />
+    <file path="/CurrencyService.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386272626361" ignored="false" />
+    <file path="/CurrencyServiceImpl.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386272660294" ignored="false" />
+    <file path="/EventService.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386274143927" ignored="false" />
+    <file path="/EventTypeBean.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386272939737" ignored="false" />
+    <file path="/EventTypeServiceImpl.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386272978137" ignored="false" />
+    <file path="/OrderOperationBean.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386273093879" ignored="false" />
+    <file path="/OrderOperationServiceImpl.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386273128710" ignored="false" />
+    <file path="/RateService.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386273185539" ignored="false" />
+    <file path="/RateServiceImpl.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386273217259" ignored="false" />
+    <file path="/TickerBean.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386273271347" ignored="false" />
+    <file path="/TickerServiceImpl.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386273310735" ignored="false" />
+    <file path="/TraderService.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386273489153" ignored="false" />
+    <file path="/TraderServiceImpl.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386273558851" ignored="false" />
+    <file path="/UserGroupBean.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386273631954" ignored="false" />
+    <file path="/UserGroupServiceImpl.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386273673823" ignored="false" />
+    <file path="/TradingOrderService.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386273766138" ignored="false" />
+    <file path="/TradingOrderServiceImpl.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386273847008" ignored="false" />
+    <file path="/FeedServiceImpl.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386273884775" ignored="false" />
+    <file path="/FeedService.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386273915769" ignored="false" />
+    <file path="/EventServiceImpl.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386274144648" ignored="false" />
+    <file path="/AccountManageBean.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386275418610" ignored="false" />
+    <file path="/EventManagedBean.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386275443468" ignored="false" />
+    <file path="/OrdersHistoryBean.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386275492049" ignored="false" />
+    <file path="/RatesManagedBean.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386275597551" ignored="false" />
+    <file path="/TradingOrderBean.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386275682752" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,6 +169,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -142,7 +206,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -152,82 +215,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BrokerBean.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/broker/BrokerBean.java">
+      <file leaf-file-name="ChangePassBean.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/backingbeans/ChangePassBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="13" selection-start="293" selection-end="293" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AccountTypeBeanLocal.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/accounttype/AccountTypeBeanLocal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="17" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AccountTypeBeanRemote.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/accounttype/AccountTypeBeanRemote.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="17" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CountryBean.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/country/CountryBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="13" selection-start="440" selection-end="440" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserGroupBean.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/usergroup/UserGroupBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="13" selection-start="446" selection-end="446" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TradingOrderBean.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/tradingorder/TradingOrderBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="13" selection-start="881" selection-end="881" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TraderBean.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/trader/TraderBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="13" selection-start="1116" selection-end="1116" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TickerBean.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/ticker/TickerBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="14" selection-start="665" selection-end="665" vertical-scroll-proportion="0.39294404">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AccountService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/account/AccountService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="17" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0">
+            <state line="9" column="13" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -235,10 +226,84 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AccountTypeBean.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/accounttype/AccountTypeBean.java">
+      <file leaf-file-name="EventManagedBean.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/backingbeans/EventManagedBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="13" selection-start="452" selection-end="452" vertical-scroll-proportion="0.0">
+            <state line="106" column="13" selection-start="3236" selection-end="3236" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LogoutBean.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/backingbeans/LogoutBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="13" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrdersHistoryBean.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/backingbeans/OrdersHistoryBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="73" column="20" selection-start="1880" selection-end="1880" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RatesManagedBean.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/backingbeans/RatesManagedBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="38" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegistrationBean.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/backingbeans/RegistrationBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="13" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TradingOrderBean.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/backingbeans/TradingOrderBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="182" column="20" selection-start="4852" selection-end="4852" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GeneratorDemo.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/exchange/quotes/generator/GeneratorDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="25" selection-start="360" selection-end="360" vertical-scroll-proportion="0.3515815">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserManageBean.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/backingbeans/UserManageBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="13" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RateEJBLocal.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/rate/ejb/RateEJBLocal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="17" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -262,22 +327,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/impl/OrderOperationDAOImpl.java" />
-        <option value="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/RateDAO.java" />
-        <option value="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/RateDAOImpl.java" />
-        <option value="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/impl/RateDAOImpl.java" />
-        <option value="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/TickerDAO.java" />
-        <option value="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/TickerDAOImpl.java" />
-        <option value="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/impl/TickerDAOImpl.java" />
-        <option value="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/TraderDAO.java" />
-        <option value="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/TraderDAOImpl.java" />
-        <option value="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/impl/TraderDAOImpl.java" />
-        <option value="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/TradingOrderDAO.java" />
-        <option value="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/TradingOrderDAOImpl.java" />
-        <option value="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/impl/TradingOrderDAOImpl.java" />
-        <option value="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/UsergroupDAO.java" />
-        <option value="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/UsergroupDAOImpl.java" />
-        <option value="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/impl/UsergroupDAOImpl.java" />
+        <option value="$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/backingbeans/RegistrationBean.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/event/EventServiceImpl.java" />
+        <option value="$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/backingbeans/ChangePassBean.java" />
+        <option value="$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/rate/ejb/RateEJB.java" />
+        <option value="$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/rate/ejb/RateEJBLocal.java" />
+        <option value="$PROJECT_DIR$/web-app/pom.xml" />
+        <option value="$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/rate/mdb/RateMessageBean.java" />
+        <option value="$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/filters/UserFilter.java" />
+        <option value="$PROJECT_DIR$/web-app/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/account/AccountService.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/account/AccountServiceImpl.java" />
+        <option value="$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/backingbeans/AccountManageBean.java" />
+        <option value="$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/backingbeans/EventManagedBean.java" />
+        <option value="$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/backingbeans/OrdersHistoryBean.java" />
+        <option value="$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/backingbeans/RatesManagedBean.java" />
+        <option value="$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/backingbeans/TradingOrderBean.java" />
       </list>
     </option>
   </component>
@@ -338,7 +403,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -441,190 +505,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ES" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ES" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="trader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ES" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ES" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ES" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ES" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="properties" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ES" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ES" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="META-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ES" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ES" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ES" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ES" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="components" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -650,40 +530,6 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ES" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ES" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -715,15 +561,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="broker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="filters" />
+              <option name="myItemId" value="es" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -762,10 +600,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="converters" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -846,6 +680,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="rate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quotes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -964,6 +802,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="broker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quotes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1085,40 +927,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="broker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ES" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ES" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="broker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="entitiesbeans" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -1146,48 +954,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="broker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="entitiesbeans" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="usergroup" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ES" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ES" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="broker" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1225,10 +991,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="broker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="entitiesbeans" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -1263,370 +1025,17 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="broker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="entitiesbeans" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ticker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ES" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ES" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="broker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="entitiesbeans" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="country" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ES" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ES" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="broker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="entitiesbeans" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="broker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ES" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ES" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="broker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="entitiesbeans" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="accounttype" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ES" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ES" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="broker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="entitiesbeans" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="account" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ES" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ES" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dataaccess" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ES" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ES" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dataaccess" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ES" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ES" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dataaccess" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ES" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ES" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dataaccess" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ES" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ES" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ES" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ES" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ES" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ES" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ES" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ES" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="broker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="entities" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ES" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ES" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="broker" />
+              <option name="myItemId" value="event" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1645,12 +1054,12 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -1659,11 +1068,15 @@
       <recent name="C:\Users\Viktor\Documents\GitHub\ES\service\src\main\resources" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.epam.tradingsystem.broker.dao" />
-      <recent name="com.epam.tradingsystem.broker.dao.impl" />
-      <recent name="com.epam.tradingsystem.broker.dao.country" />
-      <recent name="com.epam.tradingsystem.broker.dao.broker" />
-      <recent name="com.epam.tradingsystem.broker.dao.accounttype" />
+      <recent name="com.epam.tradingsystem.broker.entitiesbeans.usergroup" />
+      <recent name="com.epam.tradingsystem.broker.entitiesbeans.ticker" />
+      <recent name="com.epam.tradingsystem.broker.entitiesbeans.rate" />
+      <recent name="com.epam.tradingsystem.broker.entitiesbeans.orderoperation" />
+      <recent name="com.epam.tradingsystem.broker.entitiesbeans.eventtype" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.epam.tradingsystem.broker" />
+      <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Viktor\Documents\GitHub\ES\web-app\src\main\webapp\config" />
@@ -1671,12 +1084,30 @@
       <recent name="C:\Users\Viktor\Documents\GitHub\ES\web-app\src\main\resources" />
       <recent name="C:\Users\Viktor\Documents\GitHub\ES\web-app\src\main" />
     </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.epam.tradingsystem.broker" />
-      <recent name="" />
-    </key>
   </component>
-  <component name="RunManager" selected="Maven.runES">
+  <component name="RunManager" selected="Application.GeneratorDemo">
+    <configuration default="false" name="GeneratorDemo" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.epam.tradingsystem.broker.exchange.quotes.generator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.epam.tradingsystem.broker.exchange.quotes.generator.GeneratorDemo" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="web-app" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -1713,19 +1144,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -1752,6 +1170,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -1816,9 +1247,15 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Maven.runES" />
+      <item index="1" class="java.lang.String" itemvalue="Application.GeneratorDemo" />
     </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.GeneratorDemo" />
+      </list>
+    </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -1852,7 +1289,11 @@
       <created>1385895818698</created>
       <updated>1385895818698</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="adding DAO,&#10;adding few dependancies">
+      <created>1386195820031</created>
+      <updated>1386195820031</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1863,6 +1304,7 @@
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1871,6 +1313,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1878,13 +1321,11 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986537" sideWeight="0.6098964" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.249694" sideWeight="0.6708861" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.391453" sideWeight="0.4939394" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.249694" sideWeight="0.6087457" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3912543" sideWeight="0.4939394" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1930,7 +1371,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="module separation" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding DAO,&#10;adding few dependancies" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1945,6 +1386,7 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="module separation" />
+    <MESSAGE value="adding DAO,&#10;adding few dependancies" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1954,124 +1396,127 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/impl/RateDAOImpl.java">
+    <entry file="file://$PROJECT_DIR$/web-app/src/main/webapp/WEB-INF/web (2).xml">
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="317" selection-end="317" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="26" column="13" selection-start="379" selection-end="1300" vertical-scroll-proportion="-17.68">
+          <folding />
         </state>
       </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+        <state />
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/impl/TickerDAOImpl.java">
+    <entry file="file://$PROJECT_DIR$/web-app/src/main/webapp/trading.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="321" selection-end="321" vertical-scroll-proportion="0.0">
+        <state line="8" column="48" selection-start="346" selection-end="346" vertical-scroll-proportion="-5.230769">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/impl/TraderDAOImpl.java">
+    <entry file="file://$PROJECT_DIR$/web-app/src/main/webapp/templates/trader/template.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="321" selection-end="321" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/impl/TradingOrderDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="35" selection-start="486" selection-end="486" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/impl/UsergroupDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/account/AccountServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="13" selection-start="485" selection-end="485" vertical-scroll-proportion="0.0">
+        <state line="17" column="41" selection-start="509" selection-end="509" vertical-scroll-proportion="-11.115385">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/account/AccountService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="17" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0">
+        <state line="16" column="14" selection-start="415" selection-end="415" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/account/AccountServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="35" selection-start="890" selection-end="890" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/backingbeans/AccountManageBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="63" selection-start="809" selection-end="809" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/backingbeans/ChangePassBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/accounttype/AccountTypeBean.java">
+    <entry file="file://$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/backingbeans/EventManagedBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="13" selection-start="452" selection-end="452" vertical-scroll-proportion="0.0">
+        <state line="106" column="13" selection-start="3236" selection-end="3236" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/broker/BrokerBean.java">
+    <entry file="file://$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/backingbeans/LogoutBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="293" selection-end="293" vertical-scroll-proportion="0.0">
+        <state line="5" column="13" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/accounttype/AccountTypeBeanLocal.java">
+    <entry file="file://$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/backingbeans/OrdersHistoryBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="17" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0">
+        <state line="73" column="20" selection-start="1880" selection-end="1880" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/accounttype/AccountTypeBeanRemote.java">
+    <entry file="file://$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/rate/ejb/RateEJBLocal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="17" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0">
+        <state line="2" column="17" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/country/CountryBean.java">
+    <entry file="file://$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/backingbeans/RatesManagedBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="13" selection-start="440" selection-end="440" vertical-scroll-proportion="0.0">
+        <state line="18" column="38" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/usergroup/UserGroupBean.java">
+    <entry file="file://$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/backingbeans/RegistrationBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="13" selection-start="446" selection-end="446" vertical-scroll-proportion="0.0">
+        <state line="10" column="13" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/backingbeans/UserManageBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="13" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/tradingorder/TradingOrderBean.java">
+    <entry file="file://$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/backingbeans/TradingOrderBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="13" selection-start="881" selection-end="881" vertical-scroll-proportion="0.0">
+        <state line="182" column="20" selection-start="4852" selection-end="4852" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/trader/TraderBean.java">
+    <entry file="file://$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/exchange/quotes/generator/GeneratorDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="13" selection-start="1116" selection-end="1116" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/ticker/TickerBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="14" selection-start="665" selection-end="665" vertical-scroll-proportion="0.39294404">
+        <state line="17" column="25" selection-start="360" selection-end="360" vertical-scroll-proportion="0.3515815">
           <folding />
         </state>
       </provider>

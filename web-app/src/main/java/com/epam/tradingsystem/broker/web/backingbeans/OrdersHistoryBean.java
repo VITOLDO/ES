@@ -1,15 +1,15 @@
 package com.epam.tradingsystem.broker.web.backingbeans;
 
-import java.util.List;
-import javax.ejb.EJB;
-
 import com.epam.tradingsystem.broker.entities.TradingOrder;
-import com.epam.tradingsystem.broker.entitiesbeans.tradingorder.TradingOrderBeanLocal;
+import com.epam.tradingsystem.broker.entitiesbeans.tradingorder.TradingOrderService;
+import org.springframework.beans.factory.annotation.Autowired;
+
+import java.util.List;
 
 public class OrdersHistoryBean {
 
-	@EJB
-	private TradingOrderBeanLocal tradingOrderBean;
+	@Autowired
+	private TradingOrderService tradingOrderService;
 
 	private int countAllPages;
 	private int activePageNumber;
@@ -17,18 +17,18 @@ public class OrdersHistoryBean {
 	private int maxResult = 5;
 
 	public int getCountAllPages() {
-		try {
-			List<TradingOrder> allOrders = tradingOrderBean
-					.findAllByUserAccount(UserManageBean.getCurrentUser());
-			countAllPages = allOrders.size() / maxResult;
-			int remainderDivision = allOrders.size() % maxResult;
-			if (remainderDivision > 0) {
-				countAllPages++;
-			}
-		} catch (Exception e) {
-			countAllPages = 0;
-			e.printStackTrace();
-		}
+//		try {
+//			List<TradingOrder> allOrders = tradingOrderService
+//					.findAllByUserAccount(UserManageBean.getCurrentUser());
+//			countAllPages = allOrders.size() / maxResult;
+//			int remainderDivision = allOrders.size() % maxResult;
+//			if (remainderDivision > 0) {
+//				countAllPages++;
+//			}
+//		} catch (Exception e) {
+//			countAllPages = 0;
+//			e.printStackTrace();
+//		}
 		return countAllPages;
 	}
 
@@ -58,20 +58,20 @@ public class OrdersHistoryBean {
 
 	public List<TradingOrder> getAllOrders() {
 		try {
-		if ((activePageNumber == 0) || (activePageNumber == 1)) {
-			startPosition = 0;
-			activePageNumber = 1;
-		}
+            if ((activePageNumber == 0) || (activePageNumber == 1)) {
+                startPosition = 0;
+                activePageNumber = 1;
+            }
 		
-			List<TradingOrder> limitOrders = tradingOrderBean.findLimitByUser(
-					startPosition, maxResult, UserManageBean.getCurrentUser());
-			return limitOrders;
+//			List<TradingOrder> limitOrders = tradingOrderService.findLimitByUser(
+//					startPosition, maxResult, UserManageBean.getCurrentUser());
+//			return limitOrders;
 		} catch (Exception e) {
 			e.printStackTrace();
 			return null;
-			
-	     }
+	    }
 
+        return null;
 	}
 
 	public String getNextPage() {

@@ -5,8 +5,7 @@ import javax.naming.NamingException;
 
 import com.epam.tradingsystem.broker.entities.Trader;
 import com.epam.tradingsystem.broker.entities.Event;
-import com.epam.tradingsystem.broker.entitiesbeans.event.EventBeanRemote;
-import com.epam.tradingsystem.broker.entitiesbeans.eventtype.EventTypeBeanRemote;
+
 import java.util.Date;
 
 public class LoggerCommand implements ICommand {
@@ -20,8 +19,8 @@ public class LoggerCommand implements ICommand {
 	public static int ACCOUNT_FILL = 7;
 	public static int MESSAGE = 8;
 
-	private EventBeanRemote eventBean;
-	private EventTypeBeanRemote eventTypeBean;
+//	private EventBeanRemote eventBean;
+//	private EventTypeBeanRemote eventTypeBean;
 	private Event event;
 	private int eventType;
 
@@ -34,7 +33,7 @@ public class LoggerCommand implements ICommand {
 
 	@Override
 	public void execute() {
-		try {
+		/*try {
 			eventBean = (EventBeanRemote) new InitialContext()
 					.lookup("EventBeanRemote");
 			eventTypeBean = (EventTypeBeanRemote) new InitialContext()
@@ -48,7 +47,7 @@ public class LoggerCommand implements ICommand {
 			eventBean.create(event);
 		} catch (NamingException e) {
 			System.err.println(e);
-		}
+		}*/
 	}
 
 }

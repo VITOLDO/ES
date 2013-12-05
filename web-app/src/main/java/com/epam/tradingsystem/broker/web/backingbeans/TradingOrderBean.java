@@ -1,30 +1,31 @@
 package com.epam.tradingsystem.broker.web.backingbeans;
 
+import com.epam.tradingsystem.broker.entities.OrderOperation;
+import com.epam.tradingsystem.broker.entities.Ticker;
+import com.epam.tradingsystem.broker.entitiesbeans.orderoperation.OrderOperationService;
+import com.epam.tradingsystem.broker.entitiesbeans.ticker.TickerService;
+import com.epam.tradingsystem.broker.entitiesbeans.tradingorder.TradingOrderService;
+import com.epam.tradingsystem.broker.rate.ejb.RateEJBLocal;
+import com.epam.tradingsystem.broker.rate.quotes.Quote;
+import org.springframework.beans.factory.annotation.Autowired;
+
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import javax.ejb.EJB;
-
-import com.epam.tradingsystem.broker.entities.OrderOperation;
-import com.epam.tradingsystem.broker.entities.Ticker;
-import com.epam.tradingsystem.broker.entitiesbeans.orderoperation.OrderOperationLocal;
-import com.epam.tradingsystem.broker.entitiesbeans.ticker.TickerBeanLocal;
-import com.epam.tradingsystem.broker.entitiesbeans.tradingorder.TradingOrderBeanLocal;
-import com.epam.tradingsystem.broker.rate.ejb.RateEJBLocal;
-import com.epam.tradingsystem.broker.rate.quotes.Quote;
-
 public class TradingOrderBean {
-	@EJB
-	private TradingOrderBeanLocal tradingOrderBean;
-	@EJB
-	private RateEJBLocal rateBean;
-	@EJB
-	private TickerBeanLocal tickerBean;
-	@EJB
-	private OrderOperationLocal orderOperationBean;
+
+	@Autowired
+	private TradingOrderService tradingOrderService;
+	@Autowired
+	private TickerService tickerService;
+	@Autowired
+	private OrderOperationService orderOperationService;
+
+    @Autowired
+    private RateEJBLocal rateBean;
 
 	public TradingOrderBean() {
 
@@ -52,7 +53,7 @@ public class TradingOrderBean {
 	}
 
 	public Map<String, Object> getTypeOperationValues() {
-		List<OrderOperation> orderOperationList = orderOperationBean.findAll();
+		List<OrderOperation> orderOperationList = orderOperationService.findAllOrderOperations();
 		typeOperationValues = new LinkedHashMap<String, Object>();
 		for (OrderOperation orderOperation : orderOperationList) {
 			typeOperationValues.put(orderOperation.getName(), orderOperation.getOrderOperationId());
@@ -134,7 +135,7 @@ public class TradingOrderBean {
 	}
 
 	public Map<String, Object> getTickerValues() {
-		List<Ticker> tickersList = tickerBean.findAll();
+		List<Ticker> tickersList = tickerService.findAllTickers();
 		tickerValues = new LinkedHashMap<String, Object>();
 		for (Ticker ticker : tickersList) {
 			tickerValues.put(ticker.getName(), ticker.getTickerId());
@@ -158,7 +159,7 @@ public class TradingOrderBean {
 		// recode
 		// stub
 		List<Quote> listRates = rateBean.getLastQuotes();
-		Ticker activeTicker = tickerBean.findById(1);// add check selected Ticker
+		Ticker activeTicker = tickerService.findTickerById(1);// add check selected Ticker
 		for (Quote quote : listRates) {
 			if (quote != null && quote.getCode().equals(activeTicker.getName())) {
 				// add check selected Ticker
@@ -176,10 +177,10 @@ public class TradingOrderBean {
 
 
 	public String buyOrder() {
-		boolean result = tradingOrderBean.buyTradingOrder(tickerId, oz, sl, tp,
-				typeOrder, typeOperation, price, UserManageBean.getCurrentUser()); 
-		return String.valueOf(result);
-
+//		boolean result = tradingOrderService.buyTradingOrder(tickerId, oz, sl, tp,
+//				typeOrder, typeOperation, price, UserManageBean.getCurrentUser());
+//		return String.valueOf(result);
+        return null;
 	}
 
 }

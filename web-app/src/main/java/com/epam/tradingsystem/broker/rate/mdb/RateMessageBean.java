@@ -5,7 +5,6 @@ import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import javax.ejb.MessageDriven;
 import javax.jms.Message;
 import javax.jms.MessageListener;
 import javax.jms.TextMessage;
@@ -18,11 +17,7 @@ import com.epam.tradingsystem.broker.rate.quotes.QuoteBuilder;
 import com.epam.tradingsystem.broker.rate.quotes.RatesView;
 
 
-/**
- * Message-Driven Bean implementation class for: RateMessageBean
- *
- */
-@MessageDriven(mappedName="jms/RatesTopic")
+//@MessageDriven(mappedName="jms/RatesTopic")
 public class RateMessageBean implements MessageListener {
 	private Logger logger = Logger.getLogger("file_log");
 	RatesView rv = RatesView.getInstance();

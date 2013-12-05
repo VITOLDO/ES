@@ -14,4 +14,5 @@ import java.util.List;
 public interface AccountService {
     Account getAccountById(long id);
     List<Account> getAllAccounts();
+    void updateAccount(Account account);
 }

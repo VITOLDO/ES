@@ -1,14 +1,15 @@
 package com.epam.tradingsystem.broker.web.backingbeans;
 
-import java.util.List;
-
-import javax.ejb.EJB;
 import com.epam.tradingsystem.broker.entities.Account;
 import com.epam.tradingsystem.broker.entities.Trader;
+import com.epam.tradingsystem.broker.entitiesbeans.account.AccountService;
+import org.springframework.beans.factory.annotation.Autowired;
+
+import java.util.List;
 
 public class AccountManageBean {
-	@EJB
-	AccountBeanLocal account;
+	@Autowired
+	private AccountService accountService;
 	
 	public List<Account> getUserAccounts() {	
 		//get user from session
@@ -22,8 +23,8 @@ public class AccountManageBean {
 
 	public String replenish() {
 		getCurrentAccount().setDeposit(getCurrentAccount().getDeposit()+100000);
-		account.update(getUserAccounts().get(0));
-		return "account";
+		accountService.updateAccount(getUserAccounts().get(0));
+		return "accountService";
 	}
 
 }

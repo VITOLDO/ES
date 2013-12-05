@@ -1,17 +1,15 @@
 package com.epam.tradingsystem.broker.web.backingbeans;
 
-import javax.ejb.EJB;
+import com.epam.tradingsystem.broker.entities.Trader;
+
 import javax.faces.application.FacesMessage;
 import javax.faces.component.UIComponent;
 import javax.faces.context.FacesContext;
 import javax.faces.validator.ValidatorException;
 
-import com.epam.tradingsystem.broker.entities.Trader;
-import com.epam.tradingsystem.broker.entitiesbeans.trader.TraderBeanRemote;
-
 public class ChangePassBean {
-	@EJB
-	private TraderBeanRemote traderDaoBean;
+
+//	private TraderBeanRemote traderDaoBean;
 	private Trader trader;
 	private String oldPassword;
 	private String newPassword;
@@ -48,9 +46,9 @@ public class ChangePassBean {
 	}
 
 	public String changePass() {
-		Trader currentUser  = traderDaoBean.findById(trader.getUserId());
-		currentUser.setPassword(newPassword);
-		traderDaoBean.update(currentUser);
+//		Trader currentUser  = traderDaoBean.findById(trader.getUserId());
+//		currentUser.setPassword(newPassword);
+//		traderDaoBean.update(currentUser);
 		return "trading";
 	}
 }
