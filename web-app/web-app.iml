@@ -25,7 +25,7 @@
       </configuration>
     </facet>
   </component>
-  <component name="NewModuleRootManager" inherit-compiler-output="false">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7" inherit-compiler-output="false">
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
     <content url="file://$MODULE_DIR$">
@@ -82,7 +82,6 @@
     <orderEntry type="library" name="Maven: com.sun.faces:jsf-impl:2.0.0-b13" level="project" />
     <orderEntry type="library" name="Maven: javax.servlet:jstl:1.2" level="project" />
     <orderEntry type="library" name="Maven: javax.servlet:servlet-api:2.5" level="project" />
-    <orderEntry type="library" name="Maven: javax.jms:jms:1.1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.activemq:activemq-core:5.2.0" level="project" />
     <orderEntry type="library" name="Maven: commons-logging:commons-logging-api:1.1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.camel:camel-core:1.5.0" level="project" />

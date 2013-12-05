@@ -11,6 +11,8 @@
 
     <artifactId>service</artifactId>
 
+    <name>ES Service</name>
+
     <dependencies>
         <dependency>
             <groupId>ES</groupId>

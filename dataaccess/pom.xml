@@ -11,6 +11,8 @@
 
     <artifactId>dataaccess</artifactId>
 
+    <name>ES Dataaccess</name>
+
     <dependencies>
         <dependency>
             <groupId>commons-dbcp</groupId>

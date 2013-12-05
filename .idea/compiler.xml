@@ -34,6 +34,13 @@
         <module name="web-app" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="common" target="1.7" />
+      <module name="dataaccess" target="1.7" />
+      <module name="ES" target="1.7" />
+      <module name="service" target="1.7" />
+      <module name="web-app" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
 </project>
 
