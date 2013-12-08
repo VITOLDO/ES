@@ -3,6 +3,7 @@ package com.epam.tradingsystem.broker.entitiesbeans.usergroup;
 import com.epam.tradingsystem.broker.dao.UsergroupDAO;
 import com.epam.tradingsystem.broker.entities.Usergroup;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
@@ -13,6 +14,7 @@ import java.util.List;
  * Time: 22:00
  * To change this template use File | Settings | File Templates.
  */
+@Service("userGroupService")
 public class UserGroupServiceImpl implements UserGroupService {
 
     @Autowired

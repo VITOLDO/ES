@@ -1,0 +1,15 @@
+com\epam\tradingsystem\broker\entities\Broker.class
+com\epam\tradingsystem\broker\entities\Event.class
+com\epam\tradingsystem\broker\entities\Account.class
+com\epam\tradingsystem\broker\entities\Ticker.class
+com\epam\tradingsystem\broker\entities\TradingOrder.class
+com\epam\tradingsystem\broker\entities\Rate.class
+com\epam\tradingsystem\broker\entities\Trader.class
+com\epam\tradingsystem\broker\entities\OrderOperation.class
+com\epam\tradingsystem\broker\entities\AccountType.class
+com\epam\tradingsystem\broker\entities\FeedMessage.class
+com\epam\tradingsystem\broker\entities\Currency.class
+com\epam\tradingsystem\broker\entities\Usergroup.class
+com\epam\tradingsystem\broker\entities\Country.class
+com\epam\tradingsystem\broker\config\UserDefaults.class
+com\epam\tradingsystem\broker\entities\EventType.class

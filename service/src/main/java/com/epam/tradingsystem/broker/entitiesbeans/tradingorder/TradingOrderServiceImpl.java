@@ -12,7 +12,9 @@ import com.epam.tradingsystem.broker.entities.Account;
 import com.epam.tradingsystem.broker.entities.Trader;
 import com.epam.tradingsystem.broker.entities.TradingOrder;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
+@Service("tradingOrderService")
 public class TradingOrderServiceImpl implements TradingOrderService {
 
 	@Autowired

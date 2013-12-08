@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+<ui:composition>
+	<h:form>
+		<h4>REGISTRATION FORM</h4>
+		<br />
+		<br />
+		<h:outputText value="Personal Data" />
+		<h:panelGrid columns="3">
+		
+			<h:outputLabel for="firstName" value="FirstName*" />
+			<h:inputText id="firstName" label="FirstName"
+				value="#{registrationBean.trader.firstName}" required="true" />
+			<h:message for="firstName" styleClass="errorClass"/>
+			
+			<h:outputLabel for="lastName" value="LastName*" />
+			<h:inputText id="lastName" label="LastName" value="#{registrationBean.trader.lastName}"
+				required="true" />
+			<h:message for="lastName" styleClass="errorClass"/>
+
+			<h:outputLabel for="country" value="Country" />
+			<h:selectOneMenu id="country" label="Country" value="#{registrationBean.countryId}">
+				<f:selectItems value="#{registrationBean.countriesList}" var="c"
+					itemLabel="#{c.name}" itemValue="#{c.countryId}" />
+			</h:selectOneMenu>
+			<h:message for="country" styleClass="errorClass" />
+
+			<h:outputLabel for="birthDate" value="Birth Date (MM/dd/yyyy)" />
+			<h:inputText id="birthDate"
+				value="#{registrationBean.trader.birthDate}" label="BirthDate">
+				<f:convertDateTime type="date" for="birthDate" pattern="MM/dd/yyyy" />
+			</h:inputText>
+			<h:message for="birthDate" styleClass="errorClass" />
+		</h:panelGrid>
+		<br />
+		<h:outputText value="Account Data" />
+		<h:panelGrid columns="3">
+			<h:outputLabel for="login" value="Login*" />
+			<h:inputText id="login" label="Login" value="#{registrationBean.trader.login}"
+				required="true" />
+			<h:message for="login" styleClass="errorClass" />
+			<h:outputLabel for="password" value="Password*" />
+			<h:inputSecret id="password" label="Password" 
+				value="#{registrationBean.trader.password}" required="true" />
+			<h:message for="password" styleClass="errorClass" />
+			<h:outputLabel for="confirmPassword" value="ConfirmPassword*" />
+			<h:inputSecret id="confirmPassword" required="true" label="Confirm Password" />
+			<h:message for="confirmPassword" styleClass="errorClass" />
+		</h:panelGrid>
+		<h:outputText value="Fields marked with * are requied." />
+		<br />
+		<br />
+		<h:selectBooleanCheckbox id="licenseAccepted" />
+		<h:outputText value="I have read and agreed with trader's agreement." />
+		<br />
+		<br />
+		<h:commandButton action="#{registrationBean.createNewUser}"
+			value="Register" />
+	</h:form>
+</ui:composition>
+
+
+</html>

@@ -5,7 +5,9 @@ import java.util.List;
 import com.epam.tradingsystem.broker.dao.TraderDAO;
 import com.epam.tradingsystem.broker.entities.Trader;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
+@Service("traderService")
 public class TraderServiceImpl implements TraderService {
 
 	@Autowired

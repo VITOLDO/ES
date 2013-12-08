@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+
+<ui:composition template="templates/trader/template.xhtml">
+	<ui:define name="content">
+		<h:form>
+		<br />
+		<br />
+		<br />
+		<h:panelGrid columns="3">
+			<h:outputLabel for="password" value="Current password" />
+			<h:inputSecret id="password" validator="#{changePass.checkPassword}" required="true" />
+			<h:message for="password" />
+			<h:outputLabel for="newPassword" value="New password (minimum 8 symbols)" />
+			<h:inputSecret id="newPassword"   validator="#{changePass.checkNewPassword}"  required="true" >
+				<f:validateLength minimum="8"/>
+			</h:inputSecret>
+			<h:message for="newPassword" />
+			<h:outputLabel for="confirmPassword" value="Confirm new password" />
+			<h:inputSecret id="confirmPassword"  validator="#{changePass.checkNewPassword}"  required="true" />
+			<h:message for="confirmPassword" />
+		</h:panelGrid>
+		<h:commandButton action="#{changePass.changePass}"
+			value="Save" />
+		<h:commandButton action="trading" immediate="true"
+			value="Cancel" />
+	</h:form>
+	</ui:define>
+</ui:composition>
+</html>

@@ -1,0 +1,21 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+	
+	
+	<h:dataTable value="#{AccountBean.userAccounts}" var="item" border="0" cellpadding="2" cellspacing="0" style="border:solid 1px">
+		<h:column>
+		<f:facet name="header">Account num</f:facet>
+			#{item.accountId}
+		</h:column>
+		<h:column>
+		<f:facet name="header">Deposit</f:facet>
+			#{item.deposit}
+		</h:column>
+	</h:dataTable>
+	<h:form>
+	Replenish current account number: #{AccountBean.currentAccount.accountId} with deposit #{AccountBean.currentAccount.deposit}
+		<h:commandButton action="#{AccountBean.replenish}" value="replenish account on 10000$"></h:commandButton>
+	</h:form>
+</ui:composition>

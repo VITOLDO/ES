@@ -1,0 +1,32 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core">
+	<table>
+		<tr>
+			<td><h:outputLabel value="Limit of records in page:" /> 
+				<h:outputText value="#{ordersHistoryBean.maxResult}"></h:outputText>
+					<h:outputLabel	value=" || " /> 
+					<h:outputLabel value="Total pages:" />
+					<h:outputText value="#{ordersHistoryBean.countAllPages}"></h:outputText>
+				    <h:outputLabel	value=" ||       " /> 
+			</td>
+		
+			<td>
+				<h:form>
+					<h:commandLink action="#{ordersHistoryBean.getPreviousPage}">
+						<h:outputText value="Previous Page" />
+					</h:commandLink>
+				</h:form>
+			</td>
+			<td><h:outputLabel value="You are in page:" /> <h:outputText
+					value="#{ordersHistoryBean.activePageNumber}"></h:outputText></td>
+
+			<td><h:form>
+					<h:commandLink action="#{ordersHistoryBean.getNextPage}">
+						<h:outputText value="Next Page" />
+					</h:commandLink>
+				</h:form></td>
+		</tr>
+	</table>
+</ui:composition>

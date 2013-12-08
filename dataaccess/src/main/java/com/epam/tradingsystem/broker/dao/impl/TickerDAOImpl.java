@@ -2,6 +2,7 @@ package com.epam.tradingsystem.broker.dao.impl;
 
 import com.epam.tradingsystem.broker.dao.TickerDAO;
 import com.epam.tradingsystem.broker.entities.Ticker;
+import org.springframework.stereotype.Repository;
 
 /**
  * Created with IntelliJ IDEA.
@@ -10,6 +11,7 @@ import com.epam.tradingsystem.broker.entities.Ticker;
  * Time: 0:17
  * To change this template use File | Settings | File Templates.
  */
+@Repository
 public class TickerDAOImpl extends BaseDAOImpl<Ticker> implements TickerDAO {
     public TickerDAOImpl() {
         setClazz(Ticker.class);

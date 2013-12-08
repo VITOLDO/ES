@@ -1,6 +1,7 @@
 package com.epam.tradingsystem.broker.entitiesbeans.feed;
 
 import com.epam.tradingsystem.broker.entities.FeedMessage;
+import org.springframework.stereotype.Service;
 
 import javax.xml.stream.XMLEventReader;
 import javax.xml.stream.XMLInputFactory;
@@ -13,6 +14,7 @@ import java.net.URL;
 import java.util.LinkedList;
 import java.util.List;
 
+@Service("feedService")
 public class FeedServiceImpl implements FeedService{
 	static final String TITLE = "title";
 	static final String DESCRIPTION = "description";

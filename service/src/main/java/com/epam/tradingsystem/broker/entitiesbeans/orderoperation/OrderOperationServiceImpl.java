@@ -3,6 +3,7 @@ package com.epam.tradingsystem.broker.entitiesbeans.orderoperation;
 import com.epam.tradingsystem.broker.dao.OrderOperationDAO;
 import com.epam.tradingsystem.broker.entities.OrderOperation;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
@@ -13,6 +14,7 @@ import java.util.List;
  * Time: 21:51
  * To change this template use File | Settings | File Templates.
  */
+@Service("orderOperationService")
 public class OrderOperationServiceImpl implements OrderOperationService {
 
     @Autowired

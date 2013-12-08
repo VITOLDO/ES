@@ -2,6 +2,7 @@ package com.epam.tradingsystem.broker.dao.impl;
 
 import com.epam.tradingsystem.broker.dao.AccountTypeDAO;
 import com.epam.tradingsystem.broker.entities.AccountType;
+import org.springframework.stereotype.Repository;
 
 /**
  * Created with IntelliJ IDEA.
@@ -10,6 +11,7 @@ import com.epam.tradingsystem.broker.entities.AccountType;
  * Time: 0:03
  * To change this template use File | Settings | File Templates.
  */
+@Repository
 public class AccountTypeDAOImpl extends BaseDAOImpl<AccountType> implements AccountTypeDAO {
     public AccountTypeDAOImpl() {
         setClazz(AccountType.class);

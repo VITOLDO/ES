@@ -1,8 +1,10 @@
 package com.epam.tradingsystem.broker.web.backingbeans;
 
+import org.springframework.stereotype.Controller;
+
 import javax.faces.context.FacesContext;
 import javax.servlet.http.HttpSession;
-
+@Controller
 public class LogoutBean {
 
 	public String doLogout(){

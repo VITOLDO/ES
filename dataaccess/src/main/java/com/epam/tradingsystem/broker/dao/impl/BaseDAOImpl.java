@@ -4,6 +4,7 @@ import com.epam.tradingsystem.broker.dao.BaseDAO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.orm.hibernate3.HibernateTemplate;
 import org.springframework.orm.hibernate3.support.HibernateDaoSupport;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
@@ -14,7 +15,7 @@ import java.util.List;
  * Time: 23:34
  * To change this template use File | Settings | File Templates.
  */
-
+@Repository
 public class BaseDAOImpl<T> extends HibernateDaoSupport implements BaseDAO<T> {
 
     @Autowired

@@ -8,6 +8,7 @@ import com.epam.tradingsystem.broker.entitiesbeans.tradingorder.TradingOrderServ
 import com.epam.tradingsystem.broker.rate.ejb.RateEJBLocal;
 import com.epam.tradingsystem.broker.rate.quotes.Quote;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
 
 import java.util.LinkedHashMap;
 import java.util.List;
@@ -15,6 +16,7 @@ import java.util.Map;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+@Controller
 public class TradingOrderBean {
 
 	@Autowired

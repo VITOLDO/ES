@@ -3,6 +3,7 @@ package com.epam.tradingsystem.broker.entitiesbeans.ticker;
 import com.epam.tradingsystem.broker.dao.TickerDAO;
 import com.epam.tradingsystem.broker.entities.Ticker;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
@@ -13,6 +14,7 @@ import java.util.List;
  * Time: 21:54
  * To change this template use File | Settings | File Templates.
  */
+@Service("tickerService")
 public class TickerServiceImpl implements TickerService {
 
     @Autowired

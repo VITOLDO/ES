@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+    <appender name="console" class="org.apache.log4j.ConsoleAppender">
+        <param name="Target" value="System.out"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%-5p %c{1} - %m%n"/>
+        </layout>
+    </appender>
+
+    <appender name="fileAppender" class="org.apache.log4j.rolling.RollingFileAppender">
+        <!--<param name="file" value="${log.dir}/${log.file}.log" />-->
+        <param name="file" value="jsonProject.log" />
+        <param name="append" value="true" />
+        <rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+            <!--<param name="FileNamePattern" value="${archive.log.dir}/${log.file}.%d{yyyy-MM-dd}.gz" />-->
+            <param name="FileNamePattern" value="jsonProject.%d{yyyy-MM-dd}.gz" />
+            <!--<param name="ActiveFileName" value="${log.dir}/${log.file}.log"/>-->
+            <param name="ActiveFileName" value="jsonProject.log"/>
+        </rollingPolicy>
+        <layout class="org.apache.log4j.EnhancedPatternLayout">
+            <param name="ConversionPattern" value="%d{yyMMdd HH:mm:ss,SSS} [%t] %-5p %c %X %m%n" />
+        </layout>
+    </appender>
+
+    <root>
+        <priority value ="debug" />
+        <appender-ref ref="fileAppender" />
+    </root>
+
+</log4j:configuration>

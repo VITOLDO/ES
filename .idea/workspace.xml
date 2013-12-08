@@ -2,80 +2,87 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74a3bd98-115e-454f-9dcc-4e6544a8a357" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\target\ES.war" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\target\ES\WEB-INF\classes\com\filonenko\es\MainUI.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\target\ES\WEB-INF\classes\log4j.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\target\ES\WEB-INF\lib\apache-log4j-extras-1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\target\ES\WEB-INF\lib\commons-cli-1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\target\ES\WEB-INF\lib\commons-jexl-2.1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\target\ES\WEB-INF\lib\commons-logging-1.1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\target\ES\WEB-INF\lib\cssparser-0.9.5.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\target\ES\WEB-INF\lib\jsoup-1.6.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\target\ES\WEB-INF\lib\log4j-1.2.16.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\target\ES\WEB-INF\lib\sac-1.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\target\ES\WEB-INF\lib\slf4j-api-1.6.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\target\ES\WEB-INF\lib\slf4j-log4j12-1.6.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\target\ES\WEB-INF\lib\vaadin-client-compiled-7.1.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\target\ES\WEB-INF\lib\vaadin-server-7.1.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\target\ES\WEB-INF\lib\vaadin-shared-7.1.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\target\ES\WEB-INF\lib\vaadin-shared-deps-1.0.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\target\ES\WEB-INF\lib\vaadin-theme-compiler-7.1.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\target\ES\WEB-INF\lib\vaadin-themes-7.1.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\target\ES\WEB-INF\web.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\target\ES\index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\target\classes\com\filonenko\es\MainUI.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\target\classes\log4j.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\target\maven-archiver\pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\target\surefire\surefire1083966565697627888tmp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\target\surefire\surefire143633612872984408tmp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\target\surefire\surefire2268225033518300458tmp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\target\surefire\surefire2320922384032689717tmp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\target\surefire\surefire410337318471285633tmp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\target\surefire\surefire4943441656020493637tmp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\target\surefire\surefire6622838539580969262tmp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\target\surefire\surefire7366113396870700166tmp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\target\surefire\surefire7560436258349703746tmp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\target\surefire\surefire9058469429785487108tmp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\target\surefire\surefirebooter4081981936762700664.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\target\surefire\surefirebooter4594619504754175374.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\target\surefire\surefirebooter7681185000184566953.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\target\surefire\surefirebooter8958055442365015356.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\target\surefire\surefirebooter8997225105578775259.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\target\tomcat\conf\tomcat-users.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\target\tomcat\conf\web.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\target\tomcat\work\localEngine-8081\localhost\stockmarker\org\apache\jsp\index_jsp.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Viktor\Documents\GitHub\ES\target\tomcat\work\localEngine-8081\localhost\stockmarker\org\apache\jsp\index_jsp.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/controller/WelcomeController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/src/main/resources/application-security.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/src/main/resources/application-webflow.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/src/main/resources/application-webmvc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/src/main/webapp/META-INF/context.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/src/main/webapp/WEB-INF/jsp/homePage.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/src/main/webapp/WEB-INF/jsp/views.xml" />
+      <change type="DELETED" beforePath="D:\workspace\ES\web-app\src\main\webapp\WEB-INF\sun-web.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\ES\web-app\src\main\webapp\WEB-INF\web (2).xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/backingbeans/AccountManageBean.java" afterPath="$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/backingbeans/AccountManageBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/account/AccountServiceImpl.java" afterPath="$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/account/AccountServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/impl/AccountTypeDAOImpl.java" afterPath="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/impl/AccountTypeDAOImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/accounttype/AccountTypeServiceImpl.java" afterPath="$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/accounttype/AccountTypeServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/impl/BaseDAOImpl.java" afterPath="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/impl/BaseDAOImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/impl/BrokerDAOImpl.java" afterPath="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/impl/BrokerDAOImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/broker/BrokerServiceImpl.java" afterPath="$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/broker/BrokerServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/backingbeans/ChangePassBean.java" afterPath="$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/backingbeans/ChangePassBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/impl/CountryDAOImpl.java" afterPath="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/impl/CountryDAOImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/country/CountryServiceImpl.java" afterPath="$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/country/CountryServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/impl/CurrencyDAOImpl.java" afterPath="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/impl/CurrencyDAOImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/currency/CurrencyServiceImpl.java" afterPath="$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/currency/CurrencyServiceImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ES.iml" afterPath="$PROJECT_DIR$/ES.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/impl/EventDAOImpl.java" afterPath="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/impl/EventDAOImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/backingbeans/EventManagedBean.java" afterPath="$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/backingbeans/EventManagedBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/event/EventServiceImpl.java" afterPath="$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/event/EventServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/impl/EventTypeDAOImpl.java" afterPath="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/impl/EventTypeDAOImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/eventtype/EventTypeServiceImpl.java" afterPath="$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/eventtype/EventTypeServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/impl/FeedMessageDAOImpl.java" afterPath="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/impl/FeedMessageDAOImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/backingbeans/LogoutBean.java" afterPath="$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/backingbeans/LogoutBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/impl/OrderOperationDAOImpl.java" afterPath="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/impl/OrderOperationDAOImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/orderoperation/OrderOperationServiceImpl.java" afterPath="$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/orderoperation/OrderOperationServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/backingbeans/OrdersHistoryBean.java" afterPath="$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/backingbeans/OrdersHistoryBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/impl/RateDAOImpl.java" afterPath="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/impl/RateDAOImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/rate/RateServiceImpl.java" afterPath="$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/rate/RateServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/backingbeans/RatesManagedBean.java" afterPath="$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/backingbeans/RatesManagedBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/backingbeans/RegistrationBean.java" afterPath="$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/backingbeans/RegistrationBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/impl/TickerDAOImpl.java" afterPath="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/impl/TickerDAOImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/ticker/TickerServiceImpl.java" afterPath="$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/ticker/TickerServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/impl/TraderDAOImpl.java" afterPath="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/impl/TraderDAOImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/trader/TraderServiceImpl.java" afterPath="$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/trader/TraderServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/backingbeans/TradingOrderBean.java" afterPath="$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/backingbeans/TradingOrderBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/impl/TradingOrderDAOImpl.java" afterPath="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/impl/TradingOrderDAOImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/tradingorder/TradingOrderServiceImpl.java" afterPath="$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/tradingorder/TradingOrderServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/usergroup/UserGroupServiceImpl.java" afterPath="$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/usergroup/UserGroupServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/backingbeans/UserManageBean.java" afterPath="$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/backingbeans/UserManageBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/impl/UsergroupDAOImpl.java" afterPath="$PROJECT_DIR$/dataaccess/src/main/java/com/epam/tradingsystem/broker/dao/impl/UsergroupDAOImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ant.xml" afterPath="$PROJECT_DIR$/.idea/ant.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/common.iml" afterPath="$PROJECT_DIR$/common/common.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/src/main/webapp/WEB-INF/faces-config.xml" afterPath="$PROJECT_DIR$/web-app/src/main/webapp/WEB-INF/faces-config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataaccess/pom.xml" afterPath="$PROJECT_DIR$/dataaccess/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/pom.xml" afterPath="$PROJECT_DIR$/service/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataaccess/src/main/resources/persistance.xml" afterPath="$PROJECT_DIR$/dataaccess/src/main/resources/persistance.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/pom.xml" afterPath="$PROJECT_DIR$/web-app/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/service.iml" afterPath="$PROJECT_DIR$/service/service.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/web-app.iml" afterPath="$PROJECT_DIR$/web-app/web-app.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web-app/src/main/webapp/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="D:\workspace\ES\service\src\main\java\com\epam\tradingsystem\broker\entitiesbeans\feed\FeedServiceIMpl.java" afterPath="$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/feed/FeedServiceImpl.java" />
+      <change type="MOVED" beforePath="D:\workspace\ES\web-app\src\main\webapp\config\applicationContext.xml" afterPath="$PROJECT_DIR$/web-app/src/main/resources/applicationContext.xml" />
+      <change type="MOVED" beforePath="D:\workspace\ES\web-app\src\main\webapp\resources\css\trader\calendar.css" afterPath="$PROJECT_DIR$/web-app/src/main/webapp/css/trader/calendar.css" />
+      <change type="MOVED" beforePath="D:\workspace\ES\web-app\src\main\webapp\resources\css\trader\styles.css" afterPath="$PROJECT_DIR$/web-app/src/main/webapp/css/trader/styles.css" />
+      <change type="MOVED" beforePath="D:\workspace\ES\web-app\src\main\webapp\resources\js\trader\jquery.min.js" afterPath="$PROJECT_DIR$/web-app/src/main/webapp/js/trader/jquery.min.js" />
+      <change type="MOVED" beforePath="D:\workspace\ES\web-app\src\main\webapp\resources\js\trader\ui.datepicker.js" afterPath="$PROJECT_DIR$/web-app/src/main/webapp/js/trader/ui.datepicker.js" />
     </list>
     <ignored path="ES.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/MainUI.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1383163518979" ignored="false" />
-    <file path="/pom.xml" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386276063277" ignored="false" />
-    <file path="/Dummy.txt" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386276069152" ignored="false" />
-    <file path="/web.xml" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1385894434708" ignored="false" />
+    <file path="/pom.xml" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386341965499" ignored="false" />
+    <file path="/Dummy.txt" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386333839372" ignored="false" />
+    <file path="/web.xml" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386340211003" ignored="false" />
     <file path="/Account.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1385754873405" ignored="false" />
     <file path="/fragment.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386273644895" ignored="false" />
     <file path="/hibernate.cfg.xml" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386194020897" ignored="false" />
     <file path="/application-config.xml" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1385893432171" ignored="false" />
-    <file path="/applicationContext.xml" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386194236543" ignored="false" />
-    <file path="/persistance.xml" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386192606302" ignored="false" />
+    <file path="/applicationContext.xml" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386344311963" ignored="false" />
+    <file path="/persistance.xml" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386338736668" ignored="false" />
     <file path="/AccountDAO.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386193663542" ignored="false" />
     <file path="/AccountDAOImpl.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386195035486" ignored="false" />
     <file path="/BaseDAO.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386192840752" ignored="false" />
     <file path="/BaseDAOImpl.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386193392707" ignored="false" />
     <file path="/AccountService.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386275398445" ignored="false" />
-    <file path="/AccountServiceImpl.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386275411978" ignored="false" />
+    <file path="/AccountServiceImpl.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386332091977" ignored="false" />
     <file path="/AccountTypeImpl.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386195050031" ignored="false" />
     <file path="/AccountTypeDAO.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386194676190" ignored="false" />
     <file path="/BrokerDAO.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386272310816" ignored="false" />
@@ -130,8 +137,15 @@
     <file path="/EventManagedBean.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386275443468" ignored="false" />
     <file path="/OrdersHistoryBean.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386275492049" ignored="false" />
     <file path="/RatesManagedBean.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386275597551" ignored="false" />
-    <file path="/TradingOrderBean.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386275682752" ignored="false" />
+    <file path="/TradingOrderBean.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386339096369" ignored="false" />
     <file path="/faces-config.xml" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386276529257" ignored="false" />
+    <file path="/FeedServiceIMpl.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386331788774" ignored="false" />
+    <file path="/context.xml" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386338529741" ignored="false" />
+    <file path="/WelcomeController.java" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386344431529" ignored="false" />
+    <file path="/application-webmvc.xml" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386343074805" ignored="false" />
+    <file path="/application-webflow.xml" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386343280519" ignored="false" />
+    <file path="/application-security.xml" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386344273007" ignored="false" />
+    <file path="/views.xml" changelist="74a3bd98-115e-454f-9dcc-4e6544a8a357" time="1386344635336" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +168,6 @@
         <option name="ENABLED" value="false" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
         <option name="SUSPEND_POLICY" value="SuspendAll" />
         <option name="SUSPEND" value="true" />
         <option name="COUNT_FILTER_ENABLED" value="false" />
@@ -171,7 +184,6 @@
         <option name="ENABLED" value="false" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
         <option name="SUSPEND_POLICY" value="SuspendAll" />
         <option name="SUSPEND" value="true" />
         <option name="COUNT_FILTER_ENABLED" value="false" />
@@ -192,97 +204,73 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TradingOrderBean.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/backingbeans/TradingOrderBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="146" column="44" selection-start="3612" selection-end="3612" vertical-scroll-proportion="0.6361829">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GeneratorDemo.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/exchange/quotes/generator/GeneratorDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="25" selection-start="360" selection-end="360" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web-app/src/main/webapp/WEB-INF/web.xml">
           <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
             <state />
           </provider>
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="45" selection-start="998" selection-end="998" vertical-scroll-proportion="-12.24">
+            <state line="37" column="25" selection-start="1325" selection-end="1325" vertical-scroll-proportion="-8.96">
               <folding />
             </state>
           </provider>
           <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
             <state />
           </provider>
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-            <state />
+        </entry>
+      </file>
+      <file leaf-file-name="applicationContext.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-app/src/main/resources/applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="56" selection-start="1134" selection-end="1134" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web (2).xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web-app/src/main/webapp/WEB-INF/web (2).xml">
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-            <state />
+      <file leaf-file-name="application-webmvc.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-app/src/main/resources/application-webmvc.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="0" selection-start="0" selection-end="594" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="homePage.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-app/src/main/webapp/WEB-INF/jsp/homePage.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-            <state />
-          </provider>
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-            <state />
-          </provider>
         </entry>
       </file>
-      <file leaf-file-name="faces-config.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web-app/src/main/webapp/WEB-INF/faces-config.xml">
-          <provider editor-type-id="com.intellij.jsf.ui.FacesConfigEditorProvider">
-            <state />
-          </provider>
-          <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider">
-            <state />
-          </provider>
+      <file leaf-file-name="views.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web-app/src/main/webapp/WEB-INF/jsp/views.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="75" selection-start="426" selection-end="426" vertical-scroll-proportion="21.0">
+            <state line="9" column="76" selection-start="353" selection-end="353" vertical-scroll-proportion="0.29310346">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/pom.xml">
+      <file leaf-file-name="application-webflow.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-app/src/main/resources/application-webflow.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="26" selection-start="476" selection-end="498" vertical-scroll-proportion="0.0">
+            <state line="7" column="0" selection-start="0" selection-end="802" vertical-scroll-proportion="-4.76">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dataaccess/pom.xml">
+      <file leaf-file-name="application-security.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-app/src/main/resources/application-security.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="4" selection-start="480" selection-end="506" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="20" selection-start="493" selection-end="493" vertical-scroll-proportion="0.0">
+            <state line="28" column="75" selection-start="1588" selection-end="1588" vertical-scroll-proportion="-5.72">
               <folding />
             </state>
           </provider>
@@ -291,16 +279,27 @@
       <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web-app/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="21" selection-start="2249" selection-end="2249" vertical-scroll-proportion="0.0">
+            <state line="81" column="21" selection-start="2593" selection-end="2593" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="WelcomeController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/controller/WelcomeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="24" selection-start="562" selection-end="562" vertical-scroll-proportion="0.0">
+            <state line="25" column="28" selection-start="854" selection-end="854" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="local.properties" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-app/src/main/resources/local.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -324,29 +323,29 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/rate/ejb/RateEJBLocal.java" />
-        <option value="$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/rate/mdb/RateMessageBean.java" />
-        <option value="$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/filters/UserFilter.java" />
-        <option value="$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/account/AccountService.java" />
-        <option value="$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/account/AccountServiceImpl.java" />
-        <option value="$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/backingbeans/AccountManageBean.java" />
         <option value="$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/backingbeans/EventManagedBean.java" />
+        <option value="$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/backingbeans/LogoutBean.java" />
         <option value="$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/backingbeans/OrdersHistoryBean.java" />
         <option value="$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/backingbeans/RatesManagedBean.java" />
-        <option value="$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/backingbeans/TradingOrderBean.java" />
-        <option value="$PROJECT_DIR$/dataaccess/pom.xml" />
-        <option value="$PROJECT_DIR$/service/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/web-app/pom.xml" />
+        <option value="$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/backingbeans/RegistrationBean.java" />
+        <option value="$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/backingbeans/UserManageBean.java" />
+        <option value="$PROJECT_DIR$/web-app/src/main/webapp/config/applicationContext.xml" />
         <option value="$PROJECT_DIR$/web-app/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/web-app/src/main/webapp/WEB-INF/faces-config.xml" />
+        <option value="$PROJECT_DIR$/web-app/pom.xml" />
+        <option value="$PROJECT_DIR$/web-app/src/main/resources/application-webmvc.xml" />
+        <option value="$PROJECT_DIR$/web-app/src/main/resources/application-webflow.xml" />
+        <option value="$PROJECT_DIR$/web-app/src/main/resources/application-security.xml" />
+        <option value="$PROJECT_DIR$/web-app/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/controller/WelcomeController.java" />
+        <option value="$PROJECT_DIR$/web-app/src/main/webapp/WEB-INF/jsp/homePage.jsp" />
+        <option value="$PROJECT_DIR$/web-app/src/main/webapp/WEB-INF/jsp/views.xml" />
       </list>
     </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="C:\Dev\Programs\apache-maven-2.2.1" />
+        <option name="mavenHome" value="C:\Users\Viktor\apache-maven-3.0.4-bin\apache-maven-3.0.4" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -366,10 +365,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1696" />
-    <option name="height" value="1026" />
+    <option name="width" value="1366" />
+    <option name="height" value="728" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -399,6 +396,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -428,28 +426,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="web-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ES" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ES" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -530,6 +506,74 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jsp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ES" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ES" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="META-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ES" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ES" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -594,6 +638,174 @@
               <option name="myItemId" value="broker" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="filters" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ES" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ES" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="broker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="converters" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ES" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ES" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="broker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ES" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ES" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="broker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backingbeans" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ES" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ES" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="broker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -606,6 +818,92 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ES" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ES" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ES" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ES" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="entitiesbeans" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ES" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ES" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="entitiesbeans" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ticker" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -633,7 +931,19 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
+              <option name="myItemId" value="dataaccess" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -647,24 +957,69 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
+              <option name="myItemId" value="dataaccess" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ES" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ES" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dataaccess" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_directory_selection" value="$PROJECT_DIR$/service/src/main/java" />
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="OverrideImplement.combined" value="false" />
     <property name="options.splitter.main.proportions" value="0.3" />
@@ -672,7 +1027,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/web-app" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -697,15 +1052,16 @@
       <recent name="com.epam.tradingsystem.broker.entitiesbeans.orderoperation" />
       <recent name="com.epam.tradingsystem.broker.entitiesbeans.eventtype" />
     </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.epam.tradingsystem.broker" />
-      <recent name="" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\ES\web-app\src\main\resources" />
+      <recent name="D:\workspace\ES\web-app\src\main\webapp" />
       <recent name="C:\Users\Viktor\Documents\GitHub\ES\web-app\src\main\webapp\config" />
       <recent name="C:\Users\Viktor\Documents\GitHub\ES\web-app\src\main\webapp" />
       <recent name="C:\Users\Viktor\Documents\GitHub\ES\web-app\src\main\resources" />
-      <recent name="C:\Users\Viktor\Documents\GitHub\ES\web-app\src\main" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.epam.tradingsystem.broker" />
+      <recent name="" />
     </key>
   </component>
   <component name="RunManager" selected="Maven.runES">
@@ -752,7 +1108,6 @@
             <option name="profilesMap">
               <map />
             </option>
-            <option name="resolveToWorkspace" value="false" />
             <option name="workingDirPath" value="" />
           </MavenRunnerParameters>
         </option>
@@ -861,12 +1216,17 @@
             <option name="profilesMap">
               <map />
             </option>
-            <option name="resolveToWorkspace" value="false" />
             <option name="workingDirPath" value="$PROJECT_DIR$/web-app" />
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -924,7 +1284,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <frame x="0" y="0" width="1366" height="728" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -935,19 +1295,20 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39010358" sideWeight="0.5007576" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3897436" sideWeight="0.5007576" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986537" sideWeight="0.6098964" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.61025643" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.249694" sideWeight="0.6087457" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3912543" sideWeight="0.4939394" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25230062" sideWeight="0.6" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3897436" sideWeight="0.4939394" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -982,7 +1343,7 @@
     <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
     <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
-    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
+    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
     <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
     <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
     <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
@@ -992,10 +1353,6 @@
     <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
     <option name="LIMIT_HISTORY" value="true" />
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
-    <option name="UPDATE_FILTER_SCOPE_NAME" />
-    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
-    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
-    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
     <option name="LAST_COMMIT_MESSAGE" value="it can finally be build" />
@@ -1009,7 +1366,6 @@
     <option name="ACTIVE_VCS_NAME" />
     <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
-    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="module separation" />
@@ -1024,120 +1380,39 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/backingbeans/LogoutBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/backingbeans/OrdersHistoryBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="20" selection-start="1880" selection-end="1880" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/rate/ejb/RateEJBLocal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="17" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/backingbeans/RatesManagedBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="38" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0">
+        <state line="7" column="11" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/backingbeans/RegistrationBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0">
+        <state line="10" column="11" selection-start="351" selection-end="351" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/backingbeans/UserManageBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0">
+        <state line="12" column="9" selection-start="330" selection-end="330" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/exchange/quotes/generator/GeneratorDemo.java">
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/epam/tradingsystem/broker/entitiesbeans/ticker/TickerServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="25" selection-start="360" selection-end="360" vertical-scroll-proportion="0.0">
+        <state line="17" column="13" selection-start="494" selection-end="494" vertical-scroll-proportion="-0.17434211">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/pom.xml">
+    <entry file="file://$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/backingbeans/TradingOrderBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="26" selection-start="476" selection-end="498" vertical-scroll-proportion="0.0">
+        <state line="139" column="8" selection-start="3342" selection-end="3342" vertical-scroll-proportion="0.0">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataaccess/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="4" selection-start="480" selection-end="506" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="20" selection-start="493" selection-end="493" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="24" selection-start="562" selection-end="562" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-app/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="21" selection-start="2249" selection-end="2249" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-app/src/main/webapp/WEB-INF/web (2).xml">
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-app/src/main/webapp/WEB-INF/web.xml">
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="45" selection-start="998" selection-end="998" vertical-scroll-proportion="-12.24">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web-app/src/main/webapp/WEB-INF/faces-config.xml">
@@ -1148,14 +1423,88 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="75" selection-start="426" selection-end="426" vertical-scroll-proportion="21.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="2.44">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/backingbeans/TradingOrderBean.java">
+    <entry file="file://$PROJECT_DIR$/web-app/src/main/webapp/WEB-INF/web.xml">
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="146" column="44" selection-start="3612" selection-end="3612" vertical-scroll-proportion="0.6361829">
+        <state line="37" column="25" selection-start="1325" selection-end="1325" vertical-scroll-proportion="-8.96">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/src/main/resources/local.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="81" column="21" selection-start="2593" selection-end="2593" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/src/main/resources/application-webflow.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="0" selection-end="802" vertical-scroll-proportion="-4.76">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/src/main/resources/application-security.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="75" selection-start="1588" selection-end="1588" vertical-scroll-proportion="-5.72">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="56" selection-start="1134" selection-end="1134" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/src/main/java/com/epam/tradingsystem/broker/web/controller/WelcomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="28" selection-start="854" selection-end="854" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/src/main/resources/application-webmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="0" selection-end="594" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/src/main/webapp/WEB-INF/jsp/homePage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/src/main/webapp/WEB-INF/jsp/views.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="76" selection-start="353" selection-end="353" vertical-scroll-proportion="0.29310346">
           <folding />
         </state>
       </provider>
@@ -1166,7 +1515,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>ES:war</last-edited>
+          <last-edited>web-app:war</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1239,7 +1588,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: com.vaadin:vaadin:6.8.3</last-edited>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -4,6 +4,7 @@ import com.epam.tradingsystem.broker.dao.AccountDAO;
 import com.epam.tradingsystem.broker.entities.Account;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
@@ -14,7 +15,7 @@ import java.util.List;
  * Time: 0:01
  * To change this template use File | Settings | File Templates.
  */
-@Repository
+@Service("accountService")
 public class AccountServiceImpl implements AccountService {
 
     @Autowired

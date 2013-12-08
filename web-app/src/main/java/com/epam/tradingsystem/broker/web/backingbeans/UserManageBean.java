@@ -4,7 +4,9 @@ import javax.faces.context.FacesContext;
 import javax.servlet.http.HttpSession;
 
 import com.epam.tradingsystem.broker.entities.Trader;
+import org.springframework.stereotype.Controller;
 
+@Controller
 public class UserManageBean {
 
 	public static Trader getCurrentUser() {

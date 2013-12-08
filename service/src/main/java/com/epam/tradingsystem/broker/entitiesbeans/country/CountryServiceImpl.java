@@ -3,6 +3,7 @@ package com.epam.tradingsystem.broker.entitiesbeans.country;
 import com.epam.tradingsystem.broker.dao.CountryDAO;
 import com.epam.tradingsystem.broker.entities.Country;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
@@ -13,6 +14,7 @@ import java.util.List;
  * Time: 21:41
  * To change this template use File | Settings | File Templates.
  */
+@Service("countryService")
 public class CountryServiceImpl implements CountryService {
 
     @Autowired

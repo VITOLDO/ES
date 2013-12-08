@@ -4,11 +4,13 @@ import com.epam.tradingsystem.broker.dao.EventDAO;
 import com.epam.tradingsystem.broker.entities.Event;
 import com.epam.tradingsystem.broker.entities.Trader;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import javax.persistence.Query;
 import java.util.Date;
 import java.util.List;
 
+@Service("eventService")
 public class EventServiceImpl implements EventService {
 
     @Autowired

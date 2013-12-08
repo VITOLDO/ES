@@ -5,11 +5,12 @@ import com.epam.tradingsystem.broker.entities.Trader;
 import com.epam.tradingsystem.broker.entitiesbeans.event.EventService;
 import com.epam.tradingsystem.broker.events.commands.LoggerCommand;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
 
 import javax.faces.context.FacesContext;
 import javax.servlet.http.HttpSession;
 import java.util.*;
-
+@Controller
 public class EventManagedBean {
 	@Autowired
 	private EventService eventService;

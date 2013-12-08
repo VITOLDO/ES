@@ -3,6 +3,7 @@ package com.epam.tradingsystem.broker.entitiesbeans.eventtype;
 import com.epam.tradingsystem.broker.dao.EventTypeDAO;
 import com.epam.tradingsystem.broker.entities.EventType;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
@@ -13,6 +14,7 @@ import java.util.List;
  * Time: 21:49
  * To change this template use File | Settings | File Templates.
  */
+@Service("eventTypeService")
 public class EventTypeServiceImpl implements EventTypeService {
 
     @Autowired
